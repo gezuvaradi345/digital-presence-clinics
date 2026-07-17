@@ -6,6 +6,9 @@ const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)
 const year = document.getElementById('year');
 if (year) year.textContent = new Date().getFullYear();
 
+const SUPABASE_URL = 'https://jzhcsuemxipzccbzdllr.supabase.co';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp6aGNzdWVteGlwemNjYnpkbGxyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQyODMzMjEsImV4cCI6MjA5OTg1OTMyMX0.NDobZ2KkhrWUF1N2EmIRghNhROq24bymULAJ6WVuXDg';
+
 window.addEventListener('scroll', () => {
   header.classList.toggle('scrolled', window.scrollY > 24);
 }, { passive: true });
@@ -24,6 +27,65 @@ if (menuButton && nav) {
       menuButton.setAttribute('aria-label', 'Menü megnyitása');
       nav.classList.remove('open');
     });
+  });
+}
+
+const contactForm = document.getElementById('contactForm');
+const contactStatus = document.getElementById('contactStatus');
+
+const setContactStatus = (message, type = '') => {
+  if (!contactStatus) return;
+  contactStatus.textContent = message;
+  contactStatus.classList.toggle('is-success', type === 'success');
+  contactStatus.classList.toggle('is-error', type === 'error');
+};
+
+if (contactForm) {
+  contactForm.addEventListener('submit', async (event) => {
+    event.preventDefault();
+
+    const submitButton = contactForm.querySelector('button[type="submit"]');
+    const formData = new FormData(contactForm);
+    const payload = {
+      name: String(formData.get('name') || '').trim(),
+      email: String(formData.get('email') || '').trim(),
+      interest: String(formData.get('interest') || '').trim(),
+      message: String(formData.get('message') || '').trim(),
+      source: 'digital-presence-clinics-website'
+    };
+
+    if (!payload.name || !payload.email || !payload.interest || !payload.message) {
+      setContactStatus('Kérjük, töltse ki az összes mezőt.', 'error');
+      return;
+    }
+
+    submitButton.disabled = true;
+    setContactStatus('Küldés folyamatban...');
+
+    try {
+      const response = await fetch(`${SUPABASE_URL}/rest/v1/contact_requests`, {
+        method: 'POST',
+        headers: {
+          apikey: SUPABASE_ANON_KEY,
+          Authorization: `Bearer ${SUPABASE_ANON_KEY}`,
+          'Content-Type': 'application/json',
+          Prefer: 'return=minimal'
+        },
+        body: JSON.stringify(payload)
+      });
+
+      if (!response.ok) {
+        throw new Error(`Supabase response: ${response.status}`);
+      }
+
+      contactForm.reset();
+      setContactStatus('Köszönjük, az üzenet megérkezett. Hamarosan jelentkezünk.', 'success');
+    } catch (error) {
+      console.error(error);
+      setContactStatus('Most nem sikerült elküldeni. Kérjük, próbálja újra később, vagy írjon közvetlenül emailben.', 'error');
+    } finally {
+      submitButton.disabled = false;
+    }
   });
 }
 

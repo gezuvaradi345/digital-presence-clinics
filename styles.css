@@ -257,6 +257,30 @@ h1, h2, h3 { margin: 0; font-family: "Manrope", sans-serif; line-height: 1.12; l
 .contact__panel p { max-width: 610px; position: relative; margin: 25px auto 34px; color: var(--ink-soft); font-size: 14px; }
 .contact__panel .button { position: relative; }
 .contact__glow { position: absolute; width: 520px; height: 520px; top: -350px; left: calc(50% - 260px); border-radius: 50%; background: rgba(54,117,255,.16); filter: blur(15px); }
+.contact-form { width: min(720px, 100%); position: relative; z-index: 1; margin: 0 auto; text-align: left; }
+.contact-form__grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+.contact-form label { display: block; margin-bottom: 14px; }
+.contact-form label span { display: block; margin: 0 0 8px 4px; color: #506277; text-transform: uppercase; letter-spacing: 1.4px; font-size: 9px; font-weight: 900; }
+.contact-form input, .contact-form select, .contact-form textarea {
+  width: 100%;
+  border: 1px solid rgba(255,255,255,.88);
+  border-radius: 17px;
+  outline: 0;
+  padding: 16px 17px;
+  color: var(--ink);
+  background: rgba(255,255,255,.68);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.9), 0 10px 28px rgba(52,74,112,.07);
+  font: 500 14px "DM Sans", sans-serif;
+  transition: border-color .25s ease, box-shadow .25s ease, background .25s ease;
+}
+.contact-form textarea { resize: vertical; min-height: 126px; }
+.contact-form input:focus, .contact-form select:focus, .contact-form textarea:focus { border-color: rgba(54,117,255,.48); background: rgba(255,255,255,.86); box-shadow: inset 0 1px 0 rgba(255,255,255,.9), 0 0 0 5px rgba(54,117,255,.09), 0 14px 34px rgba(52,74,112,.1); }
+.contact-form__note { max-width: none !important; margin: 2px 0 20px !important; color: #7c8a9b !important; font-size: 11px !important; }
+.contact-form .button { width: 100%; border: 0; cursor: pointer; }
+.contact-form .button:disabled { cursor: wait; opacity: .72; transform: none; }
+.contact-form__status { max-width: none !important; min-height: 22px; margin: 16px 0 0 !important; text-align: center; font-weight: 800; }
+.contact-form__status.is-success { color: #20846f !important; }
+.contact-form__status.is-error { color: #c34848 !important; }
 
 .footer { padding: 45px 0; border-top: 1px solid rgba(91,114,145,.14); display: grid; grid-template-columns: 1.3fr 1fr .8fr auto; align-items: center; gap: 30px; color: #7b899b; font-size: 10px; }
 .footer p { margin: 0; line-height: 1.5; }
@@ -335,6 +359,7 @@ h1, h2, h3 { margin: 0; font-family: "Manrope", sans-serif; line-height: 1.12; l
   .contact { padding: 50px 0 90px; }
   .contact__panel { padding: 70px 22px; border-radius: 28px; }
   .contact__panel h2 { font-size: 38px; }
+  .contact-form__grid { grid-template-columns: 1fr; gap: 0; }
   .footer { grid-template-columns: 1fr; text-align: center; justify-items: center; }
 }
 

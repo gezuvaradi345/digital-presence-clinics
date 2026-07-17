@@ -14,7 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=6" />
+    <link rel="stylesheet" href="styles.css?v=7" />
   </head>
   <body>
     <div class="ambient" aria-hidden="true">
@@ -243,9 +243,38 @@
           <span class="kicker">Első konzultáció</span>
           <h2>Vizsgáljuk meg vállalkozása<br />digitális állapotát.</h2>
           <p>Beszéljük át céljait és azt, hogyan tudunk rendszert, lendületet és mérhető fejlődést vinni online jelenlétébe.</p>
-          <a class="button button--primary magnetic" href="mailto:hello@digitalpresenceclinics.com">
-            Időpontot kérek <span>→</span>
-          </a>
+          <form class="contact-form" id="contactForm">
+            <div class="contact-form__grid">
+              <label>
+                <span>Név</span>
+                <input type="text" name="name" autocomplete="name" placeholder="Az Ön neve" required />
+              </label>
+              <label>
+                <span>Email</span>
+                <input type="email" name="email" autocomplete="email" placeholder="nev@email.com" required />
+              </label>
+            </div>
+            <label>
+              <span>Miben segíthetünk?</span>
+              <select name="interest" required>
+                <option value="">Válasszon területet</option>
+                <option value="Weboldal vagy webshop">Weboldal vagy webshop</option>
+                <option value="Add el apróhirdető platform">Add el apróhirdető platform</option>
+                <option value="Közösségi média">Közösségi média</option>
+                <option value="Hirdetéskezelés">Hirdetéskezelés</option>
+                <option value="Karbantartás és gondozás">Karbantartás és gondozás</option>
+              </select>
+            </label>
+            <label>
+              <span>Üzenet</span>
+              <textarea name="message" rows="5" placeholder="Írja le röviden, mire lenne szüksége..." required></textarea>
+            </label>
+            <p class="contact-form__note">Beküldéskor az adatok biztonságosan a Digital Presence Clinics Supabase rendszerébe kerülnek.</p>
+            <button class="button button--primary magnetic" type="submit">
+              Időpontot kérek <span>→</span>
+            </button>
+            <p class="contact-form__status" id="contactStatus" role="status" aria-live="polite"></p>
+          </form>
         </div>
       </section>
     </main>
@@ -257,6 +286,6 @@
       <span>© <span id="year"></span> Digital Presence Clinics</span>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=4"></script>
   </body>
 </html>
