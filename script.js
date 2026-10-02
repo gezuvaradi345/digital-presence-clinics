@@ -101,6 +101,22 @@ const observer = new IntersectionObserver((entries) => {
 document.querySelectorAll('.reveal').forEach((element) => observer.observe(element));
 
 if (!prefersReducedMotion && window.matchMedia('(pointer: fine)').matches) {
+  const heroMain = document.querySelector('.hero__main');
+  if (heroMain) {
+    heroMain.addEventListener('pointermove', (event) => {
+      const bounds = heroMain.getBoundingClientRect();
+      const x = ((event.clientX - bounds.left) / bounds.width) * 100;
+      const y = ((event.clientY - bounds.top) / bounds.height) * 100;
+      heroMain.style.setProperty('--field-x', `${Math.max(8, Math.min(92, x))}%`);
+      heroMain.style.setProperty('--field-y', `${Math.max(8, Math.min(92, y))}%`);
+    });
+
+    heroMain.addEventListener('pointerleave', () => {
+      heroMain.style.setProperty('--field-x', '72%');
+      heroMain.style.setProperty('--field-y', '28%');
+    });
+  }
+
   document.querySelectorAll('.tilt-card').forEach((card) => {
     card.addEventListener('pointermove', (event) => {
       const bounds = card.getBoundingClientRect();
