@@ -7,7 +7,7 @@ Portfólió és bemutatkozó weboldal a Gejza Váradi - Digital Solutions szám�
 - weboldalak és webshopok készítése
 - közösségi jelenlét és hirdetéskezelés
 - digitális karbantartás és gondozás
-- kiemelt saját projekt: Add el apróhirdető platform
+- kiemelt saját projekt: Vecora apróhirdető platform
 
 ## Slogan
 
