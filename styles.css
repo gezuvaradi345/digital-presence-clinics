@@ -135,7 +135,7 @@ h1, h2, h3 { margin: 0; font-family: "Manrope", sans-serif; line-height: 1.12; l
 .text-link { font-size: 13px; font-weight: 700; color: #516379; }
 .text-link span { display: inline-block; margin-left: 8px; color: var(--blue); animation: nudge 1.8s ease-in-out infinite; }
 @keyframes nudge { 50% { transform: translateY(4px); } }
-.hero__footer { position: absolute; left: 64px; bottom: 50px; display: flex; align-items: center; gap: 16px; }
+.hero__footer { width: fit-content; margin-top: 46px; display: flex; align-items: center; gap: 16px; }
 .hero__footer p { margin: 0; color: #728096; font-size: 12px; line-height: 1.45; }
 .hero__footer strong { color: var(--ink); }
 .avatar-stack { display: flex; }
@@ -355,7 +355,7 @@ h1, h2, h3 { margin: 0; font-family: "Manrope", sans-serif; line-height: 1.12; l
   .hero__lead { font-size: 15px; }
   .hero__actions { align-items: stretch; flex-direction: column; gap: 20px; }
   .text-link { text-align: center; }
-  .hero__footer { left: 24px; bottom: 32px; }
+  .hero__footer { width: 100%; margin-top: 34px; }
   .hero__side { grid-template-columns: 1fr; gap: 12px; }
   .status-card { min-height: 340px; border-radius: 26px; }
   .mini-card { min-height: 150px; border-radius: 26px; }
