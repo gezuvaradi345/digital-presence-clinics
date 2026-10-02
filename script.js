@@ -51,7 +51,7 @@ if (contactForm) {
       email: String(formData.get('email') || '').trim(),
       interest: String(formData.get('interest') || '').trim(),
       message: String(formData.get('message') || '').trim(),
-      source: 'digital-presence-clinics-website'
+      source: 'vg-digital-solutions-website'
     };
 
     if (!payload.name || !payload.email || !payload.interest || !payload.message) {

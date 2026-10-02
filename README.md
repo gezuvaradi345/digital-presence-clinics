@@ -2,6 +2,8 @@
 
 Portfólió és bemutatkozó weboldal a Gejza Váradi - Digital Solutions számára.
 
+Élő oldal: https://vg-digital-solutions.vercel.app/
+
 ## Fő fókusz
 
 - weboldalak és webshopok készítése

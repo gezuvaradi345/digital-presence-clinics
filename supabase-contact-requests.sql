@@ -5,7 +5,7 @@ create table if not exists public.contact_requests (
   email text not null,
   interest text not null,
   message text not null,
-  source text not null default 'digital-presence-clinics-website'
+  source text not null default 'vg-digital-solutions-website'
 );
 
 alter table public.contact_requests enable row level security;
