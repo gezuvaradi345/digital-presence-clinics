@@ -69,7 +69,8 @@ button, a { -webkit-tap-highlight-color: transparent; }
   transition: box-shadow .3s ease, background .3s ease;
 }
 .site-header.scrolled { background: rgba(255,255,255,.84); box-shadow: 0 14px 40px rgba(48,69,105,.15); }
-.brand { display: inline-flex; align-items: center; gap: 11px; font-family: "Manrope", sans-serif; font-size: 14px; letter-spacing: -.3px; white-space: nowrap; }
+.brand { min-width: 0; display: inline-flex; align-items: center; gap: 11px; font-family: "Manrope", sans-serif; font-size: 14px; letter-spacing: -.3px; white-space: nowrap; }
+.brand__text { display: flex; flex-direction: column; line-height: 1.05; }
 .brand__text strong { color: var(--blue); font-weight: 800; }
 .brand__mark { width: 35px; height: 35px; position: relative; display: grid; place-items: center; border-radius: 11px; background: linear-gradient(145deg, #2f72ff, #62a2ff); box-shadow: 0 8px 20px rgba(54,117,255,.28); }
 .brand__mark span { position: absolute; width: 17px; height: 5px; border-radius: 4px; background: white; }
@@ -315,7 +316,7 @@ h1, h2, h3 { margin: 0; font-family: "Manrope", sans-serif; line-height: 1.12; l
 @media (max-width: 620px) {
   :root { --radius: 23px; }
   .section-shell { width: calc(100% - 24px); }
-  .brand__text { font-size: 12px; }
+  .brand__text { font-size: 11px; }
   .hero { padding-top: 92px; gap: 12px; }
   .hero__main { min-height: 610px; padding: 38px 24px; border-radius: 26px; }
   .hero h1 { margin-top: 28px; font-size: 42px; }

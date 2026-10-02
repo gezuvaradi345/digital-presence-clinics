@@ -1,6 +1,6 @@
-# Digital Presence Clinics
+# Gejza Váradi - Digital Solutions
 
-Portfólió és bemutatkozó weboldal a Digital Presence Clinics számára.
+Portfólió és bemutatkozó weboldal a Gejza Váradi - Digital Solutions számára.
 
 ## Fő fókusz
 
