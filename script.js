@@ -1,3 +1,10 @@
+const siteLanguage = document.documentElement.lang;
+const uiCopy = {
+  hu: { open: 'Menü megnyitása', close: 'Menü bezárása', required: 'Kérjük, töltse ki az összes mezőt.', sending: 'Küldés folyamatban...', success: 'Köszönjük, az üzenet megérkezett. Hamarosan jelentkezünk.', error: 'Most nem sikerült elküldeni. Kérjük, próbálja újra később, vagy írjon közvetlenül emailben.' },
+  sk: { open: 'Otvoriť menu', close: 'Zavrieť menu', required: 'Vyplňte všetky polia.', sending: 'Odosiela sa...', success: 'Ďakujeme, vaša správa bola doručená. Čoskoro sa vám ozveme.', error: 'Správu sa nepodarilo odoslať. Skúste to neskôr alebo nám napíšte priamo e-mailom.' },
+  en: { open: 'Open menu', close: 'Close menu', required: 'Please complete all fields.', sending: 'Sending...', success: 'Thank you, your message has been received. We will be in touch soon.', error: 'Your message could not be sent. Please try again later or email us directly.' }
+}[siteLanguage] || { open: 'Open menu', close: 'Close menu' };
+
 const header = document.querySelector('.site-header');
 const menuButton = document.querySelector('.menu-toggle');
 const nav = document.querySelector('.nav');
@@ -17,14 +24,14 @@ if (menuButton && nav) {
   menuButton.addEventListener('click', () => {
     const isOpen = menuButton.getAttribute('aria-expanded') === 'true';
     menuButton.setAttribute('aria-expanded', String(!isOpen));
-    menuButton.setAttribute('aria-label', isOpen ? 'Menü megnyitása' : 'Menü bezárása');
+    menuButton.setAttribute('aria-label', isOpen ? uiCopy.open : uiCopy.close);
     nav.classList.toggle('open', !isOpen);
   });
 
   nav.querySelectorAll('a').forEach((link) => {
     link.addEventListener('click', () => {
       menuButton.setAttribute('aria-expanded', 'false');
-      menuButton.setAttribute('aria-label', 'Menü megnyitása');
+      menuButton.setAttribute('aria-label', uiCopy.open);
       nav.classList.remove('open');
     });
   });
@@ -55,12 +62,12 @@ if (contactForm) {
     };
 
     if (!payload.name || !payload.email || !payload.interest || !payload.message) {
-      setContactStatus('Kérjük, töltse ki az összes mezőt.', 'error');
+      setContactStatus(uiCopy.required, 'error');
       return;
     }
 
     submitButton.disabled = true;
-    setContactStatus('Küldés folyamatban...');
+    setContactStatus(uiCopy.sending);
 
     try {
       const response = await fetch(`${SUPABASE_URL}/rest/v1/contact_requests`, {
@@ -79,10 +86,10 @@ if (contactForm) {
       }
 
       contactForm.reset();
-      setContactStatus('Köszönjük, az üzenet megérkezett. Hamarosan jelentkezünk.', 'success');
+      setContactStatus(uiCopy.success, 'success');
     } catch (error) {
       console.error(error);
-      setContactStatus('Most nem sikerült elküldeni. Kérjük, próbálja újra később, vagy írjon közvetlenül emailben.', 'error');
+      setContactStatus(uiCopy.error, 'error');
     } finally {
       submitButton.disabled = false;
     }
