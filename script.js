@@ -188,3 +188,34 @@ if (contactForm && requestedService && /^[mo]-(web|social|ads|care|content|shop|
     select.add(new Option(label, label, true, true));
   }
 }
+
+const languagePicker = document.querySelector('.language-picker');
+if (languagePicker) {
+  const trigger = languagePicker.querySelector('.language-trigger');
+  const options = languagePicker.querySelector('.language-options');
+  const closeLanguagePicker = (restoreFocus = false) => {
+    languagePicker.classList.remove('is-open');
+    trigger.setAttribute('aria-expanded', 'false');
+    options.inert = true;
+    if (restoreFocus) trigger.focus();
+  };
+  trigger.addEventListener('click', () => {
+    const open = trigger.getAttribute('aria-expanded') !== 'true';
+    languagePicker.classList.toggle('is-open', open);
+    trigger.setAttribute('aria-expanded', String(open));
+    options.inert = !open;
+    if (open && servicesTrigger && servicesMenu) {
+      servicesTrigger.setAttribute('aria-expanded', 'false');
+      servicesMenu.hidden = true;
+    }
+  });
+  document.addEventListener('click', (event) => {
+    if (!languagePicker.contains(event.target)) closeLanguagePicker();
+  });
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && languagePicker.classList.contains('is-open')) closeLanguagePicker(true);
+  });
+  languagePicker.addEventListener('focusout', (event) => {
+    if (!languagePicker.contains(event.relatedTarget)) closeLanguagePicker();
+  });
+}
