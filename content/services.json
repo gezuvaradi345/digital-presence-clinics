@@ -1,0 +1,515 @@
+{
+  "hu": {
+    "service": "Szolgáltatások",
+    "monthly": "Havi díjas szolgáltatások",
+    "once": "Egyszeri díjas szolgáltatások",
+    "intro": "Két út egy erősebb digitális jelenléthez.",
+    "lead": "Folyamatos támogatást keres, vagy egy kész megoldást szeretne saját tulajdonba? Válassza a vállalkozásához illő együttműködést.",
+    "mlead": "Mi felépítjük és gondozzuk, Ön a vállalkozására figyelhet.",
+    "olead": "Egy konkrét cél, egy átlátható projekt, kézzelfogható eredmény.",
+    "cta": "Egyedi ajánlatot kérek",
+    "details": "Szolgáltatások megtekintése",
+    "examples": "Weboldalpéldák megtekintése",
+    "note": "A díjat és a pontos szolgáltatási tartalmat egyedi ajánlatban egyeztetjük.",
+    "mn": "A weboldalbérlés tulajdonjogot nem ad át. A futamidőt, a módosítások keretét és a megszűnés feltételeit az ajánlatban rögzítjük.",
+    "on": "Az egyszeri díjas weboldal teljes egészében az Ön tulajdonába kerül: átadjuk a forrásfájlokat és a hozzáféréseket. A domain, a tárhely, a külső licencek és a későbbi karbantartás költségeit külön egyeztetjük.",
+    "m": [
+      [
+        "web",
+        "Weboldalkészítés és bérlés",
+        "Igényei szerint elkészítjük weboldalát, amelyet tőlünk bérel havi díjért. A weboldal a mi tulajdonunk marad.",
+        "Egyedi tervezés és kivitelezés|Tárhely és technikai üzemeltetés|Egyeztetett tartalomfrissítések"
+      ],
+      [
+        "social",
+        "Közösségimédia-kezelés",
+        "Következetes jelenlét Facebookon és Instagramon, a vállalkozás hangjához igazítva.",
+        "Havi tartalomterv|Posztok és kreatívok készítése|Teljesítményértékelés"
+      ],
+      [
+        "ads",
+        "Hirdetéskezelés",
+        "Google- és Meta-kampányok folyamatos kezelése, tesztelése és finomhangolása.",
+        "Kampánytervezés és beállítás|Folyamatos optimalizálás|Havi riport; a hirdetési keret külön költség"
+      ],
+      [
+        "care",
+        "Weboldalkarbantartás",
+        "Meglévő weboldala technikai gondozása, hogy a működésére is figyeljen valaki.",
+        "Frissítések és biztonsági mentések|Működésellenőrzés|Hibajavítás az egyeztetett keretben"
+      ],
+      [
+        "content",
+        "Tartalomfrissítés és SEO-gondozás",
+        "Naprakész szövegek és folyamatos keresőoptimalizálási munka.",
+        "Új tartalmak és szövegfrissítés|Oldalcímek és leírások gondozása|Keresési teljesítmény követése"
+      ]
+    ],
+    "o": [
+      [
+        "web",
+        "Weboldalkészítés saját tulajdonba",
+        "Egyedi weboldalt készítünk, amely a teljes díj rendezése után teljes egészében az Ön tulajdona.",
+        "Reszponzív tervezés és fejlesztés|Forrásfájlok és hozzáférések átadása|Átadási útmutató"
+      ],
+      [
+        "shop",
+        "Webshopkészítés",
+        "Átgondolt online üzlet a termékbemutatástól a rendelési folyamatig.",
+        "Termék- és kategóriastruktúra|Fizetési és szállítási integrációk egyeztetés szerint|Átadás és kezelési betanítás"
+      ],
+      [
+        "landing",
+        "Kampányoldal készítése",
+        "Egy ajánlatra, eseményre vagy szolgáltatásra fókuszáló céloldal.",
+        "Célhoz igazított felépítés|Ajánlatkérő vagy regisztrációs űrlap|Mérés beállítása egyeztetés szerint"
+      ],
+      [
+        "brand",
+        "Digitális arculati csomag",
+        "Egységes megjelenés a vállalkozás digitális felületein.",
+        "Szín- és betűhasználat|Közösségimédia-sablonok|Email-aláírás és rövid arculati útmutató"
+      ],
+      [
+        "audit",
+        "Digitális állapotfelmérés",
+        "Áttekintjük weboldalát és online jelenlétét, majd konkrét javítási tervet adunk.",
+        "Weboldal és felhasználói élmény áttekintése|SEO és közösségi jelenlét felmérése|Prioritásokkal ellátott javaslatlista"
+      ]
+    ],
+    "pages": {
+      "m-web": {
+        "headline": "Egyedi weboldal. Folyamatos háttértámogatással.",
+        "explanation": "Egy jó weboldal elkészítése csak az első lépés. A tárhely, a frissítések és a tartalom gondozása utána is figyelmet igényel. A bérleti konstrukcióban egy partner fogja össze a tervezést, az indulást és a későbbi működtetést.",
+        "audience": "Induló és működő vállalkozásoknak, amelyek saját igényeikre tervezett weboldalt szeretnének, és a technikai feladatokat is ránk bíznák.",
+        "benefits": "Az Ön vállalkozására szabva~A felépítést és a megjelenést az ajánlatához és az ügyfeleihez igazítjuk.|Egy helyen a technikai feladatok~A tárhelyet és az egyeztetett gondozást ugyanaz a partner kezeli.|Tervezhető együttműködés~Előre tisztázzuk, milyen módosításokat és támogatást tartalmaz a havi díj.",
+        "steps": "Konzultáció~Átbeszéljük céljait, szolgáltatásait és azt, mit vár a weboldaltól.|Terv és ajánlat~Meghatározzuk az oldalakat, funkciókat, a havi keretet és a bérlés feltételeit.|Látványterv és tartalom~Bemutatjuk a vizuális irányt, összeállítjuk a szövegeket és egyeztetjük a módosításokat.|Fejlesztés és indulás~Elkészítjük az oldalt, ellenőrizzük mobilon és asztali gépen, majd jóváhagyás után elindítjuk.|Folyamatos gondozás~Üzemeltetjük az oldalt, és elvégezzük a csomagban egyeztetett frissítéseket.",
+        "factors": "Oldalak és nyelvek száma|Szükséges funkciók és integrációk|Havi módosítási és támogatási keret",
+        "scope": "A weboldal a mi tulajdonunk marad, Ön havi díjért használja. Az indulási költséget, a futamidőt, a domain kezelését és a megszűnés feltételeit az ajánlatban egyeztetjük."
+      },
+      "m-social": {
+        "headline": "Legyen jelen akkor is, amikor Ön dolgozik.",
+        "explanation": "A rendszertelen posztolás helyett legyen átgondolt története a márkájának. Előre megtervezzük, miről, kinek és milyen formában kommunikál, majd elkészítjük a vállalkozásához illő tartalmakat.",
+        "audience": "Olyan vállalkozásoknak, amelyeknek van mit megmutatniuk, de nincs idejük a Facebook- és Instagram-oldaluk következetes gondozására.",
+        "benefits": "Felismerhető megjelenés~Egységes vizuális és szöveges stílust alakítunk ki.|Kiszámítható tartalom~Előre egyeztetett terv alapján készülnek a bejegyzések.|Érthető visszajelzés~Áttekintjük, mely témák és formátumok váltanak ki érdeklődést.",
+        "steps": "Konzultáció~Megismerjük márkáját, célközönségét és a rendelkezésre álló anyagokat.|Kommunikációs terv~Meghatározzuk a témákat, csatornákat és a havi tartalommennyiséget.|Tartalomkészítés~Megírjuk a szövegeket és elkészítjük a jóváhagyásra szánt kreatívokat.|Jóváhagyás és közzététel~Az egyeztetett módosítások után ütemezzük a bejegyzéseket.|Értékelés~Átbeszéljük az eredményeket, és ezek alapján tervezzük a következő hónapot.",
+        "factors": "Kezelt csatornák száma|Bejegyzések mennyisége és formátuma|Kreatívgyártás és közösségkezelés igénye",
+        "scope": "A fotózás, videózás, komment- és üzenetkezelés külön egyeztethető. A fizetett hirdetések kezelése és médiaköltsége nem automatikus része a csomagnak."
+      },
+      "m-ads": {
+        "headline": "A megfelelő ajánlat a megfelelő emberek előtt.",
+        "explanation": "A hirdetés nem ér véget a kampány elindításával. Megtervezzük a célzást és a mérést, figyeljük a rendelkezésre álló adatokat, majd ezek alapján finomítjuk a kampányt és a kreatívokat.",
+        "audience": "Vállalkozásoknak, amelyek érdeklődőket, megrendeléseket vagy nagyobb ismertséget szeretnének elérni Google- vagy Meta-hirdetésekkel.",
+        "benefits": "Világos kampánycél~Már az indulás előtt meghatározzuk, milyen eredményt mérünk.|Tudatos költés~A költségkeretet az egyeztetett prioritások szerint osztjuk el.|Folyamatos tanulás~Tesztekkel és értékeléssel keressük a jobban működő megoldásokat.",
+        "steps": "Konzultáció~Áttekintjük az ajánlatot, a célközönséget és az üzleti célokat.|Kampányterv~Kiválasztjuk a csatornákat, a költségkeretet és a mérési pontokat.|Beállítás és kreatívok~Elkészítjük a hirdetéseket, ellenőrizzük a céloldalt és a mérési beállításokat.|Indítás és optimalizálás~Jóváhagyás után elindítjuk a kampányt, majd finomítjuk a célzást és a kreatívokat.|Riport és következő lépések~Bemutatjuk az eredményeket és javaslatot teszünk a folytatásra.",
+        "factors": "Hirdetési csatornák száma|Kampányok és kreatívok mennyisége|Mérési és riportálási igény",
+        "scope": "A kezelési díj és a platformoknak fizetett hirdetési keret külön tétel. Az eredményeket az ajánlat, a verseny és a céloldal is befolyásolja; garantált eladásszámot nem ígérünk."
+      },
+      "m-care": {
+        "headline": "A weboldalára akkor is figyelünk, amikor Ön másra.",
+        "explanation": "Az elavult komponensek, a hibás űrlapok vagy egy sikertelen frissítés üzleti problémává válhatnak. Rendszeres ellenőrzéssel és egyeztetett karbantartással segítünk rendben tartani a meglévő oldalt.",
+        "audience": "Meglévő weboldallal rendelkező vállalkozásoknak, amelyek technikai partnert keresnek a mindennapi működéshez.",
+        "benefits": "Rendszeres ellenőrzés~Az egyeztetett gyakorisággal átnézzük a fontos funkciókat.|Átgondolt frissítések~A rendszerhez illő mentési és frissítési rendet alakítunk ki.|Átlátható hibakezelés~Tisztázzuk a bejelentés módját, a prioritásokat és a vállalt keretet.",
+        "steps": "Technikai konzultáció~Megismerjük a rendszert, a tárhelyet és a korábbi problémákat.|Kezdeti felmérés~Ellenőrizzük a hozzáféréseket, verziókat és a mentési lehetőségeket.|Karbantartási terv~Egyeztetjük a teendőket, gyakoriságot és a támogatási feltételeket.|Rendszeres gondozás~Elvégezzük a vállalt frissítéseket, ellenőrzéseket és hibajavításokat.|Összefoglaló~Jelezzük az elvégzett munkát és a külön fejlesztést igénylő feladatokat.",
+        "factors": "Használt technológia és rendszerállapot|Ellenőrzések gyakorisága|Támogatási és hibajavítási keret",
+        "scope": "A támogatott technológiákat és a reakcióidőt felmérés után rögzítjük. Nagyobb fejlesztés, teljes újraépítés és korábbi fertőzés helyreállítása külön ajánlatot igényelhet."
+      },
+      "m-content": {
+        "headline": "Az online jelenléte fejlődjön együtt a vállalkozásával.",
+        "explanation": "Új szolgáltatások, változó ajánlatok és gyakori ügyfélkérdések: a weboldalnak ezeket is követnie kell. A tartalmi munkát keresőoptimalizálási szempontokkal hangoljuk össze, hogy az oldal világosabb és hasznosabb legyen.",
+        "audience": "Vállalkozásoknak, amelyek rendszeresen frissítenék weboldalukat és tudatosan építenék a keresőből érkező érdeklődést.",
+        "benefits": "Naprakész tájékoztatás~Az ügyfelek a jelenlegi ajánlatot és információkat találják meg.|Célzott tartalmak~Valós kérdésekre és releváns keresési témákra építünk.|Követhető fejlődés~A hozzáférhető keresési adatok alapján értékeljük a munkát.",
+        "steps": "Konzultáció~Áttekintjük üzleti céljait, meglévő tartalmait és a keresési adatokat.|Tartalmi terv~Kijelöljük a prioritásokat, témákat és a havi feladatokat.|Szöveg és optimalizálás~Elkészítjük vagy frissítjük a tartalmakat, címeket és leírásokat.|Jóváhagyás és publikálás~Egyeztetés után feltöltjük a változtatásokat és ellenőrizzük a megjelenést.|Mérés és finomítás~Átnézzük a keresési teljesítményt, és pontosítjuk a következő időszak tervét.",
+        "factors": "Oldalak és nyelvek száma|Új és frissítendő tartalmak mennyisége|Kutatás és technikai SEO terjedelme",
+        "scope": "A keresőhelyezéseket több külső tényező is befolyásolja, ezért konkrét pozíciót nem garantálunk. A nagyobb technikai fejlesztéseket külön egyeztetjük."
+      },
+      "o-web": {
+        "headline": "Weboldal, amely az Ön vállalkozását építi. És az Öné.",
+        "explanation": "A látogató gyorsan szeretné megérteni, mit kínál és miért érdemes Önt választania. Olyan egyedi weboldalt tervezünk, amely végigvezeti ezen az úton, és egyszerűvé teszi a kapcsolatfelvételt.",
+        "audience": "Vállalkozásoknak, amelyek hosszú távú, saját tulajdonú online alapot szeretnének, átadott forrásfájlokkal és hozzáférésekkel.",
+        "benefits": "Világos bemutatkozás~A tartalmat a látogatók kérdései és a vállalkozás céljai köré rendezzük.|Mobilra is tervezve~A fontos információk és az ajánlatkérés kisebb képernyőn is elérhetők.|Teljes átadás~A díj rendezése után átadjuk a weboldalt, a forrásfájlokat és a hozzáféréseket.",
+        "steps": "Konzultáció~Megbeszéljük céljait, célközönségét, a szükséges funkciókat és a kívánt tartalmakat.|Struktúra és ajánlat~Összeállítjuk az oldaltérképet, a feladatokat és a megvalósítás ütemezését.|Látványterv és szövegek~Bemutatjuk a design irányát, és egyeztetjük a tartalmakat a fejlesztés előtt.|Fejlesztés és tesztelés~Felépítjük az oldalt, ellenőrizzük a mobilnézetet, az űrlapokat és a navigációt.|Élesítés és átadás~Jóváhagyás után publikálunk, átadjuk a hozzáféréseket és bemutatjuk az oldal kezelését.",
+        "factors": "Oldalak és nyelvek száma|Egyedi funkciók és integrációk|Szövegírás, képek és tartalomfeltöltés",
+        "scope": "A teljes díj rendezése után a weboldal teljes egészében az Ön tulajdona. A domain, tárhely és külső licencek díjait külön egyeztetjük; a későbbi gondozás választható szolgáltatás."
+      },
+      "o-shop": {
+        "headline": "Legyen könnyű megtalálni. Legyen egyszerű megvenni.",
+        "explanation": "Egy webshopban a termékbemutatás, a navigáció és a rendelés együtt működik. Olyan vásárlási folyamatot építünk, amely érthetően vezeti végig a látogatót a kínálattól a rendelés elküldéséig.",
+        "audience": "Kereskedőknek és gyártóknak, akik online értékesítést indítanának vagy átgondoltabb webshopra váltanának.",
+        "benefits": "Átlátható kínálat~Logikus kategóriákkal és termékadatokkal segítjük a választást.|Kényelmes rendelés~A fizetési és szállítási lehetőségeket az üzletéhez igazítjuk.|Kezelhető mindennapok~Átadáskor bemutatjuk a termékek és rendelések kezelését.",
+        "steps": "Üzleti konzultáció~Átbeszéljük a termékeket, piacokat és az értékesítési folyamatot.|Rendszerterv~Kiválasztjuk a platformot, kategóriákat és a szükséges integrációkat.|Design és felépítés~Elkészítjük a boltot, és feltöltjük az egyeztetett termékkört.|Próbarendelés~Ellenőrizzük a kosarat, fizetési és szállítási folyamatot, valamint az értesítéseket.|Indulás és betanítás~Jóváhagyás után elindítjuk a webshopot és bemutatjuk a kezelését.",
+        "factors": "Termékek és változatok mennyisége|Fizetési, szállítási és számlázási integrációk|Platform és egyedi funkciók",
+        "scope": "A platform, a fizetési szolgáltató és a külső modulok díjai külön költségek lehetnek. A termékadatokat és a szükséges jogi tájékoztatókat az ügyfél biztosítja."
+      },
+      "o-landing": {
+        "headline": "Egy ajánlat. Egy világos következő lépés.",
+        "explanation": "Ha kampányt indít, a látogatót érdemes közvetlenül a releváns ajánlathoz vezetni. A kampányoldalon egy cél köré rendezzük az érveket, a fontos információkat és az ajánlatkérés vagy regisztráció lehetőségét.",
+        "audience": "Szolgáltatásbevezetéshez, eseményhez vagy célzott hirdetési kampányhoz, ahol egy konkrét cselekvést vár a látogatótól.",
+        "benefits": "Fókuszált üzenet~Az oldal egyetlen ajánlatra és célközönségre koncentrál.|Meggyőző felépítés~Az előnyök, gyakori kérdések és valós bizonyítékok logikus sorrendet kapnak.|Egyszerű kapcsolatfelvétel~Jól látható gombokkal és célhoz illő űrlappal segítjük a következő lépést.",
+        "steps": "Célmeghatározás~Tisztázzuk az ajánlatot, a közönséget és az elvárt cselekvést.|Üzenet és struktúra~Összeállítjuk az érveket, a szekciókat és a szükséges tartalmakat.|Design és kivitelezés~Elkészítjük a mobilbarát céloldalt és az űrlapot.|Ellenőrzés és mérés~Teszteljük a beküldést és az egyeztetett mérési beállításokat.|Kampányra kész átadás~Jóváhagyás után publikáljuk és átadjuk az oldalt.",
+        "factors": "Tartalom és szekciók terjedelme|Űrlapok és integrációk|Mérési beállítások és nyelvi változatok",
+        "scope": "A hirdetési kampány kezelése és költségkerete külön szolgáltatás. Az elkészült oldalon a megadott, valós referenciákat és állításokat használjuk."
+      },
+      "o-brand": {
+        "headline": "Ismerjék fel a vállalkozását minden felületen.",
+        "explanation": "Ha minden bejegyzés és dokumentum másképp néz ki, nehezebb egységes benyomást kelteni. Használható digitális arculati alapokat és sablonokat készítünk, amelyekhez a későbbi kommunikáció is igazodhat.",
+        "audience": "Induló márkáknak és olyan vállalkozásoknak, amelyek meglévő megjelenésüket rendeznék egységes rendszerbe.",
+        "benefits": "Összetartozó felületek~A színek és betűk következetesen támogatják a márka karakterét.|Újra használható sablonok~A mindennapi tartalmak készítése könnyebben indulhat el.|Gyakorlati útmutató~Röviden bemutatjuk, hogyan alkalmazza az elkészült elemeket.",
+        "steps": "Márkakonzultáció~Megismerjük a vállalkozás karakterét és a használt felületeket.|Vizuális irány~Egyeztetjük a hangulatot, színeket és tipográfiát.|Arculati elemek~Elkészítjük a kiválasztott sablonokat és az email-aláírást.|Finomítás~Átvezetjük az egyeztetett visszajelzéseket és ellenőrizzük az összhangot.|Átadás és útmutató~Átadjuk a megállapodott formátumokat és a használati leírást.",
+        "factors": "Sablonok és felületek száma|Meglévő arculat állapota|Szükséges fájlformátumok és módosítási körök",
+        "scope": "A logótervezés, a nyomdai anyagok és a fizetős betű- vagy képlicencek külön egyeztethetők. A pontosan átadott szerkeszthető formátumokat az ajánlat tartalmazza."
+      },
+      "o-audit": {
+        "headline": "Tudja meg, min érdemes először változtatni.",
+        "explanation": "Nem mindig egy új weboldal a következő lépés. Először nézzük meg, hol akad el a látogató, mi hiányzik az online jelenlétből, és mely javítások szolgálják leginkább a vállalkozás célját.",
+        "audience": "Vállalkozásoknak, amelyek fejlesztés vagy marketingköltés előtt szeretnének tisztábban látni és sorrendet felállítani.",
+        "benefits": "Külső nézőpont~Ügyfélszemmel nézzük végig a digitális felületeket.|Konkrét teendők~Általános tanácsok helyett az észlelt problémákhoz adunk javaslatokat.|Döntési alap~Prioritásokat jelölünk ki a következő fejlesztési vagy marketinglépésekhez.",
+        "steps": "Konzultáció~Megbeszéljük az üzleti célokat és a jelenlegi nehézségeket.|Információgyűjtés~Bekérjük a releváns linkeket és szükség szerint az elemzési hozzáféréseket.|Vizsgálat~Átnézzük a weboldalt, a tartalmakat, a SEO alapokat és a közösségi jelenlétet.|Javaslatlista~Összefoglaljuk a megállapításokat, és rangsoroljuk a teendőket.|Eredmények átbeszélése~Bemutatjuk a jelentést és megválaszoljuk a következő lépésekkel kapcsolatos kérdéseket.",
+        "factors": "Vizsgált oldalak és csatornák száma|Elemzés mélysége|Rendelkezésre álló adatok és hozzáférések",
+        "scope": "A szolgáltatás eredménye elemzés és javaslatlista. A javítások kivitelezése külön rendelhető; ez a felmérés nem teljes körű biztonsági vagy jogi audit."
+      }
+    }
+  },
+  "sk": {
+    "service": "Služby",
+    "monthly": "Služby s mesačným poplatkom",
+    "once": "Služby s jednorazovou platbou",
+    "intro": "Dve cesty k silnejšej digitálnej prezentácii.",
+    "lead": "Hľadáte priebežnú podporu alebo hotové riešenie do vlastného vlastníctva? Vyberte si spoluprácu pre svoje podnikanie.",
+    "mlead": "My tvoríme a spravujeme, vy sa venujete podnikaniu.",
+    "olead": "Konkrétny cieľ, jasný projekt a praktický výsledok.",
+    "cta": "Mám záujem o ponuku",
+    "details": "Pozrieť služby",
+    "examples": "Pozrieť ukážky webov",
+    "note": "Cenu a presný rozsah služieb dohodneme v individuálnej ponuke.",
+    "mn": "Prenájom webu neprevádza vlastníctvo. Trvanie, rozsah úprav a podmienky ukončenia dohodneme v ponuke.",
+    "on": "Web s jednorazovou platbou bude v plnom rozsahu vaším vlastníctvom: odovzdáme zdrojové súbory a prístupy. Náklady na doménu, hosting, externé licencie a následnú údržbu dohodneme osobitne.",
+    "m": [
+      [
+        "web",
+        "Tvorba a prenájom webstránok",
+        "Web vytvoríme podľa vašich požiadaviek a prenajímate si ho od nás za mesačný poplatok. Web zostáva v našom vlastníctve.",
+        "Individuálny dizajn a realizácia|Hosting a technická prevádzka|Dohodnuté aktualizácie obsahu"
+      ],
+      [
+        "social",
+        "Správa sociálnych sietí",
+        "Pravidelná komunikácia na Facebooku a Instagrame v štýle vašej značky.",
+        "Mesačný obsahový plán|Tvorba príspevkov a grafiky|Vyhodnotenie výsledkov"
+      ],
+      [
+        "ads",
+        "Správa reklamných kampaní",
+        "Priebežná správa, testovanie a optimalizácia kampaní Google a Meta.",
+        "Návrh a nastavenie kampaní|Priebežná optimalizácia|Mesačný report; reklamný rozpočet sa platí zvlášť"
+      ],
+      [
+        "care",
+        "Údržba webstránok",
+        "Technická starostlivosť o váš existujúci web.",
+        "Aktualizácie a zálohy|Kontrola funkčnosti|Opravy v dohodnutom rozsahu"
+      ],
+      [
+        "content",
+        "Aktualizácia obsahu a SEO",
+        "Aktuálny obsah a priebežná optimalizácia pre vyhľadávače.",
+        "Nový obsah a úpravy textov|Správa titulkov a popisov|Sledovanie výkonu vo vyhľadávaní"
+      ]
+    ],
+    "o": [
+      [
+        "web",
+        "Tvorba webstránok do vlastníctva",
+        "Vytvoríme individuálny web, ktorý po zaplatení celej ceny bude v plnom rozsahu vaším vlastníctvom.",
+        "Responzívny dizajn a vývoj|Odovzdanie zdrojových súborov a prístupov|Návod na správu"
+      ],
+      [
+        "shop",
+        "Tvorba e-shopov",
+        "Premyslený internetový obchod od prezentácie produktov po objednávku.",
+        "Štruktúra produktov a kategórií|Platobné a dopravné integrácie podľa dohody|Odovzdanie a zaškolenie"
+      ],
+      [
+        "landing",
+        "Tvorba landing page",
+        "Cielená stránka pre jednu ponuku, udalosť alebo službu.",
+        "Štruktúra podľa cieľa|Dopytový alebo registračný formulár|Nastavenie merania podľa dohody"
+      ],
+      [
+        "brand",
+        "Digitálna vizuálna identita",
+        "Jednotný vzhľad digitálnych kanálov vášho podnikania.",
+        "Farby a typografia|Šablóny pre sociálne siete|Emailový podpis a stručný vizuálny manuál"
+      ],
+      [
+        "audit",
+        "Digitálny audit",
+        "Posúdime váš web a online prezentáciu a pripravíme plán zlepšení.",
+        "Posúdenie webu a používateľskej skúsenosti|Analýza SEO a sociálnych sietí|Odporúčania zoradené podľa priority"
+      ]
+    ],
+    "pages": {
+      "m-web": {
+        "headline": "Web na mieru. S priebežnou podporou.",
+        "explanation": "Spustenie webu je len začiatok. Hosting, aktualizácie a obsah potrebujú pozornosť aj neskôr. Pri prenájme zastreší jeden partner návrh, spustenie aj ďalšiu prevádzku.",
+        "audience": "Pre začínajúce aj fungujúce firmy, ktoré chcú web podľa svojich potrieb a technickú prevádzku zveriť partnerovi.",
+        "benefits": "Podľa vášho podnikania~Štruktúru a vzhľad prispôsobíme ponuke aj zákazníkom.|Jeden technický partner~Hosting aj dohodnutú starostlivosť riešime spoločne.|Jasný mesačný rozsah~Vopred viete, aké úpravy a podporu poplatok zahŕňa.",
+        "steps": "Konzultácia~Preberieme ciele, služby a úlohu vášho webu.|Plán a ponuka~Dohodneme stránky, funkcie, mesačný rozsah a podmienky prenájmu.|Dizajn a obsah~Predstavíme vizuálny smer a pripravíme obsah na schválenie.|Vývoj a spustenie~Web vytvoríme, overíme na mobile aj počítači a po schválení spustíme.|Priebežná starostlivosť~Zabezpečíme prevádzku a aktualizácie dohodnuté v balíku.",
+        "factors": "Počet stránok a jazykov|Potrebné funkcie a integrácie|Rozsah mesačných úprav a podpory",
+        "scope": "Web zostáva v našom vlastníctve a používate ho za mesačný poplatok. Úvodné náklady, trvanie, správu domény a podmienky ukončenia dohodneme v ponuke."
+      },
+      "m-social": {
+        "headline": "Buďte viditeľní, aj keď sa venujete práci.",
+        "explanation": "Dajte svojej značke ucelený príbeh prostredníctvom pravidelnej komunikácie. Naplánujeme témy, publikum a formáty a pripravíme obsah, ktorý vystihuje vaše podnikanie.",
+        "audience": "Pre firmy, ktoré majú čo ukázať, ale nemajú čas pravidelne spravovať Facebook a Instagram.",
+        "benefits": "Rozpoznateľný štýl~Jednotná grafika a texty pomáhajú budovať známy obraz značky.|Naplánovaný obsah~Príspevky vznikajú podľa dohodnutého plánu.|Zrozumiteľná spätná väzba~Vyhodnotíme témy a formáty, ktoré vzbudzujú záujem.",
+        "steps": "Konzultácia~Spoznáme značku, publikum a dostupné podklady.|Komunikačný plán~Dohodneme témy, kanály a mesačný objem obsahu.|Tvorba obsahu~Pripravíme texty a grafiku na schválenie.|Schválenie a publikovanie~Zapracujeme dohodnuté úpravy a naplánujeme príspevky.|Vyhodnotenie~Preberieme výsledky a využijeme ich pri plánovaní ďalšieho mesiaca.",
+        "factors": "Počet spravovaných kanálov|Počet a formáty príspevkov|Tvorba kreatív a správa komunity",
+        "scope": "Fotografovanie, video, komentáre a správa správ sa dajú dohodnúť osobitne. Správa platenej reklamy a reklamný rozpočet nie sú automatickou súčasťou balíka."
+      },
+      "m-ads": {
+        "headline": "Správna ponuka pred správnymi ľuďmi.",
+        "explanation": "Reklama sa spustením nekončí. Naplánujeme cielenie a meranie, sledujeme dostupné údaje a podľa nich upravujeme kampane aj kreatívy.",
+        "audience": "Pre firmy, ktoré chcú získavať dopyty, objednávky alebo povedomie cez reklamy Google či Meta.",
+        "benefits": "Jasný cieľ kampane~Už pred spustením určíme, aký výsledok sledujeme.|Premyslený rozpočet~Výdavky rozdelíme podľa dohodnutých priorít.|Priebežné zlepšovanie~Testovanie a vyhodnotenie usmerňujú ďalšie úpravy.",
+        "steps": "Konzultácia~Prejdeme ponuku, publikum a obchodné ciele.|Plán kampane~Vyberieme kanály, rozpočet a merané udalosti.|Nastavenie a kreatívy~Pripravíme reklamy a overíme cieľovú stránku aj meranie.|Spustenie a optimalizácia~Po schválení spustíme kampaň a upravujeme cielenie aj kreatívy.|Report a ďalšie kroky~Vysvetlíme výsledky a odporučíme pokračovanie.",
+        "factors": "Počet reklamných kanálov|Počet kampaní a kreatív|Požiadavky na meranie a reporty",
+        "scope": "Odmena za správu je oddelená od reklamného rozpočtu plateného platformám. Výsledky ovplyvňuje aj ponuka, konkurencia a cieľová stránka; garantovaný počet predajov nesľubujeme."
+      },
+      "m-care": {
+        "headline": "Na váš web myslíme, aj keď vy riešite iné veci.",
+        "explanation": "Zastarané komponenty, nefunkčné formuláre či nepodarená aktualizácia môžu narušiť podnikanie. Pravidelnými kontrolami a dohodnutou údržbou pomáhame udržiavať existujúci web funkčný.",
+        "audience": "Pre firmy s existujúcim webom, ktoré hľadajú technického partnera na priebežnú prevádzku.",
+        "benefits": "Pravidelná kontrola~Dôležité funkcie preverujeme v dohodnutých intervaloch.|Plánované aktualizácie~Nastavíme zálohovanie a aktualizácie vhodné pre váš systém.|Jasné riešenie problémov~Dohodneme spôsob hlásenia, priority aj rozsah podpory.",
+        "steps": "Technická konzultácia~Spoznáme systém, hosting a predchádzajúce problémy.|Úvodné posúdenie~Overíme prístupy, verzie a možnosti zálohovania.|Plán údržby~Dohodneme úlohy, pravidelnosť a podmienky podpory.|Pravidelná starostlivosť~Vykonávame dohodnuté aktualizácie, kontroly a opravy.|Zhrnutie~Informujeme o práci a označíme úlohy vyžadujúce samostatný vývoj.",
+        "factors": "Technológia a stav systému|Frekvencia kontrol|Rozsah podpory a opráv",
+        "scope": "Podporované technológie a reakčné časy stanovíme po posúdení. Väčší vývoj, prestavba a obnova po existujúcom napadnutí môžu vyžadovať samostatnú ponuku."
+      },
+      "m-content": {
+        "headline": "Nech vaša online prezentácia rastie s podnikaním.",
+        "explanation": "Nové služby, meniace sa ponuky a časté otázky zákazníkov patria aj na web. Obsahovú prácu prepájame s optimalizáciou pre vyhľadávače, aby boli stránky jasnejšie a užitočnejšie.",
+        "audience": "Pre firmy, ktoré chcú pravidelne aktualizovať web a cielene budovať návštevnosť z vyhľadávania.",
+        "benefits": "Aktuálne informácie~Zákazníci nájdu platnú ponuku a údaje.|Relevantný obsah~Vychádzame zo skutočných otázok a tém vyhľadávania.|Sledovateľný vývoj~Prácu hodnotíme podľa dostupných údajov z vyhľadávania.",
+        "steps": "Konzultácia~Prejdeme ciele, existujúci obsah a údaje z vyhľadávania.|Obsahový plán~Určíme priority, témy a mesačné úlohy.|Texty a optimalizácia~Vytvoríme alebo upravíme obsah, titulky a popisy.|Schválenie a publikovanie~Po dohode zverejníme úpravy a overíme zobrazenie.|Meranie a úpravy~Vyhodnotíme výkon vo vyhľadávaní a spresníme ďalší plán.",
+        "factors": "Počet stránok a jazykov|Objem nového a aktualizovaného obsahu|Rozsah prieskumu a technického SEO",
+        "scope": "Pozície vo vyhľadávaní ovplyvňujú aj vonkajšie faktory, preto konkrétne umiestnenie negarantujeme. Väčšie technické zmeny dohodneme osobitne."
+      },
+      "o-web": {
+        "headline": "Web, ktorý buduje vaše podnikanie. A patrí vám.",
+        "explanation": "Návštevník chce rýchlo pochopiť, čo ponúkate a prečo si vás vybrať. Navrhneme web na mieru, ktorý ho prevedie rozhodovaním a uľahčí kontakt.",
+        "audience": "Pre firmy, ktoré chcú dlhodobý online základ vo vlastnom vlastníctve, s odovzdanými súbormi a prístupmi.",
+        "benefits": "Jasné predstavenie~Obsah usporiadame podľa otázok zákazníkov a cieľov firmy.|Aj pre mobil~Dôležité informácie a dopyt zostanú dostupné aj na menšom displeji.|Úplné odovzdanie~Po úhrade odovzdáme web, zdrojové súbory a prístupy.",
+        "steps": "Konzultácia~Preberieme ciele, publikum, funkcie a potrebný obsah.|Štruktúra a ponuka~Pripravíme mapu webu, rozsah prác a harmonogram.|Dizajn a texty~Pred vývojom predstavíme vizuálny smer a dohodneme obsah.|Vývoj a testovanie~Web vytvoríme a overíme mobilné zobrazenie, formuláre a navigáciu.|Spustenie a odovzdanie~Po schválení web publikujeme, odovzdáme prístupy a vysvetlíme správu.",
+        "factors": "Počet stránok a jazykov|Vlastné funkcie a integrácie|Texty, obrázky a napĺňanie obsahu",
+        "scope": "Po úhrade celej ceny bude web v plnom rozsahu vaším vlastníctvom. Doménu, hosting a externé licencie dohodneme osobitne; následná údržba je voliteľná."
+      },
+      "o-shop": {
+        "headline": "Ľahko nájsť. Jednoducho kúpiť.",
+        "explanation": "Prezentácia produktov, navigácia a objednávka musia fungovať spolu. Vytvoríme nákupný proces, ktorý zrozumiteľne vedie od ponuky po odoslanie objednávky.",
+        "audience": "Pre obchodníkov a výrobcov, ktorí začínajú predávať online alebo chcú lepšie usporiadaný e-shop.",
+        "benefits": "Prehľadná ponuka~Logické kategórie a produktové údaje pomáhajú pri výbere.|Praktická objednávka~Platby a dopravu prispôsobíme vášmu podnikaniu.|Zvládnuteľná prevádzka~Pri odovzdaní ukážeme správu produktov a objednávok.",
+        "steps": "Obchodná konzultácia~Preberieme produkty, trhy a predajný proces.|Návrh systému~Vyberieme platformu, kategórie a integrácie.|Dizajn a tvorba~Vytvoríme obchod a vložíme dohodnutý sortiment.|Skúšobná objednávka~Overíme košík, platbu, dopravu a oznámenia.|Spustenie a zaškolenie~Po schválení e-shop spustíme a vysvetlíme jeho správu.",
+        "factors": "Počet produktov a variantov|Platobné, dopravné a fakturačné integrácie|Platforma a vlastné funkcie",
+        "scope": "Platforma, platobná služba a externé moduly môžu mať samostatné poplatky. Produktové údaje a potrebné právne informácie dodáva klient."
+      },
+      "o-landing": {
+        "headline": "Jedna ponuka. Jeden jasný ďalší krok.",
+        "explanation": "Pri kampani má návštevník prísť priamo k relevantnej ponuke. Argumenty, informácie aj dopyt či registráciu usporiadame okolo jedného cieľa.",
+        "audience": "Pre uvedenie služby, podujatie alebo cielenú kampaň, pri ktorej očakávate konkrétnu akciu návštevníka.",
+        "benefits": "Sústredené posolstvo~Stránka sa venuje jednej ponuke a publiku.|Presvedčivá štruktúra~Výhody, časté otázky a skutočné dôkazy majú logické poradie.|Jednoduchý kontakt~Viditeľné tlačidlá a vhodný formulár podporia ďalší krok.",
+        "steps": "Určenie cieľa~Ujasníme ponuku, publikum a požadovanú akciu.|Posolstvo a štruktúra~Naplánujeme argumenty, sekcie a potrebný obsah.|Dizajn a realizácia~Vytvoríme stránku vhodnú pre mobil a formulár.|Kontrola a meranie~Otestujeme odosielanie aj dohodnuté meranie.|Odovzdanie pre kampaň~Po schválení stránku publikujeme a odovzdáme.",
+        "factors": "Rozsah obsahu a sekcií|Formuláre a integrácie|Meranie a jazykové verzie",
+        "scope": "Správa reklamnej kampane a reklamný rozpočet sú samostatné služby. Používame skutočné referencie a tvrdenia dodané klientom."
+      },
+      "o-brand": {
+        "headline": "Nech vašu firmu spoznajú na každom kanáli.",
+        "explanation": "Ak každý príspevok a dokument vyzerá inak, jednotný dojem sa buduje ťažšie. Pripravíme praktické digitálne základy značky a šablóny pre ďalšiu komunikáciu.",
+        "audience": "Pre nové značky aj firmy, ktoré chcú zjednotiť existujúcu vizuálnu prezentáciu.",
+        "benefits": "Jednotné kanály~Farby a písmo dôsledne vyjadrujú charakter značky.|Opakovane použiteľné šablóny~Každodenná tvorba obsahu má pripravený základ.|Praktický návod~Stručne vysvetlíme používanie hotových prvkov.",
+        "steps": "Konzultácia o značke~Spoznáme charakter firmy a používané kanály.|Vizuálny smer~Dohodneme náladu, farby a typografiu.|Vizuálne prvky~Pripravíme vybrané šablóny a emailový podpis.|Doladenie~Zapracujeme dohodnutú spätnú väzbu a overíme jednotnosť.|Odovzdanie a návod~Dodáme dohodnuté formáty a pokyny na používanie.",
+        "factors": "Počet šablón a kanálov|Stav existujúcej identity|Formáty súborov a kolá úprav",
+        "scope": "Logo, tlačové materiály a platené licencie písiem či fotografií dohodneme osobitne. Ponuka určí editovateľné formáty, ktoré odovzdáme."
+      },
+      "o-audit": {
+        "headline": "Zistite, čo sa oplatí zmeniť ako prvé.",
+        "explanation": "Nový web nemusí byť prvý krok. Najskôr zistíme, kde sa návštevník stráca, čo v online prezentácii chýba a ktoré zlepšenia najviac podporia ciele firmy.",
+        "audience": "Pre firmy, ktoré si chcú ujasniť priority pred investíciou do vývoja alebo marketingu.",
+        "benefits": "Pohľad zvonka~Digitálne kanály prejdeme očami zákazníka.|Konkrétne úlohy~Odporúčania viažeme na zistené problémy.|Podklad na rozhodovanie~Priority pomôžu určiť ďalšie vývojové či marketingové kroky.",
+        "steps": "Konzultácia~Preberieme ciele a súčasné ťažkosti.|Zber informácií~Vyžiadame si odkazy a podľa potreby analytické prístupy.|Posúdenie~Prejdeme web, obsah, základy SEO a sociálne siete.|Odporúčania~Zhrnieme zistenia a zoradíme úlohy podľa priority.|Prezentácia výsledkov~Vysvetlíme správu a odpovieme na otázky k ďalším krokom.",
+        "factors": "Počet hodnotených stránok a kanálov|Hĺbka analýzy|Dostupné údaje a prístupy",
+        "scope": "Výstupom je analýza a odporúčania. Realizácia úprav je samostatná služba; nejde o komplexný bezpečnostný ani právny audit."
+      }
+    }
+  },
+  "en": {
+    "service": "Services",
+    "monthly": "Monthly services",
+    "once": "One-time services",
+    "intro": "Two paths to a stronger digital presence.",
+    "lead": "Looking for ongoing support or a finished solution you own? Choose the right partnership for your business.",
+    "mlead": "We build and maintain, so you can focus on your business.",
+    "olead": "A clear goal, a defined project and a practical result.",
+    "cta": "Request a tailored quote",
+    "details": "Explore services",
+    "examples": "View website examples",
+    "note": "Pricing and the precise scope are agreed in a tailored proposal.",
+    "mn": "Website rental does not transfer ownership. The term, included changes and cancellation conditions are agreed in the proposal.",
+    "on": "Your one-time website becomes fully yours: we hand over source files and access credentials. Domain, hosting, third-party licences and future maintenance costs are agreed separately.",
+    "m": [
+      [
+        "web",
+        "Website creation and rental",
+        "We build your website to your requirements and you rent it from us for a monthly fee. We retain ownership of the website.",
+        "Custom design and development|Hosting and technical operation|Agreed content updates"
+      ],
+      [
+        "social",
+        "Social media management",
+        "Consistent communication on Facebook and Instagram in your brand’s voice.",
+        "Monthly content plan|Posts and creative assets|Performance review"
+      ],
+      [
+        "ads",
+        "Advertising management",
+        "Ongoing management, testing and optimisation of Google and Meta campaigns.",
+        "Campaign planning and setup|Ongoing optimisation|Monthly reporting; advertising spend is separate"
+      ],
+      [
+        "care",
+        "Website maintenance",
+        "Technical care for your existing website.",
+        "Updates and backups|Functionality checks|Fixes within the agreed scope"
+      ],
+      [
+        "content",
+        "Content updates and SEO",
+        "Fresh content and ongoing search engine optimisation.",
+        "New content and copy updates|Page titles and descriptions|Search performance monitoring"
+      ]
+    ],
+    "o": [
+      [
+        "web",
+        "Website creation with full ownership",
+        "We build a custom website that becomes fully yours once the project fee is paid in full.",
+        "Responsive design and development|Source files and access handover|Management guide"
+      ],
+      [
+        "shop",
+        "Online store development",
+        "A carefully planned store from product presentation to checkout.",
+        "Product and category structure|Payment and shipping integrations as agreed|Handover and training"
+      ],
+      [
+        "landing",
+        "Landing page creation",
+        "A focused page for a specific offer, event or service.",
+        "Goal-led page structure|Enquiry or registration form|Measurement setup as agreed"
+      ],
+      [
+        "brand",
+        "Digital brand identity",
+        "A consistent look across your business’s digital channels.",
+        "Colours and typography|Social media templates|Email signature and concise brand guide"
+      ],
+      [
+        "audit",
+        "Digital presence audit",
+        "We review your website and online presence and deliver an actionable improvement plan.",
+        "Website and user experience review|SEO and social presence assessment|Prioritised recommendations"
+      ]
+    ],
+    "pages": {
+      "m-web": {
+        "headline": "A custom website. With ongoing support.",
+        "explanation": "Launching a website is only the beginning. Hosting, updates and content still need attention afterwards. With website rental, one partner brings together design, launch and ongoing operation.",
+        "audience": "For new and established businesses that want a website tailored to their needs and a partner to handle its technical operation.",
+        "benefits": "Built around your business~We shape the structure and design around your offer and customers.|One technical partner~Hosting and agreed maintenance are managed together.|A defined monthly scope~You know which changes and support are included in your fee.",
+        "steps": "Consultation~We discuss your goals, services and what the website needs to achieve.|Plan and proposal~We agree on pages, functions, the monthly scope and rental terms.|Design and content~We present a visual direction and prepare the content for your review.|Development and launch~We build and check the site on mobile and desktop, then launch with your approval.|Ongoing care~We operate the website and carry out the updates agreed in your plan.",
+        "factors": "Number of pages and languages|Required functions and integrations|Monthly changes and support scope",
+        "scope": "We retain ownership of the website; you use it for a monthly fee. Setup costs, the rental term, domain management and cancellation conditions are agreed in the proposal."
+      },
+      "m-social": {
+        "headline": "Stay visible while you run your business.",
+        "explanation": "Give your brand a coherent story through planned, regular communication. We define the topics, audience and formats, then create content that fits your business.",
+        "audience": "For businesses with something to share but little time to manage Facebook and Instagram consistently.",
+        "benefits": "A recognisable style~Consistent visuals and copy help your brand feel familiar.|Planned content~Posts follow an agreed schedule and content plan.|Clear feedback~We review the topics and formats that attract interest.",
+        "steps": "Consultation~We learn about your brand, audience and available materials.|Communication plan~We agree on topics, channels and monthly content volume.|Content creation~We prepare copy and creative assets for your review.|Approval and publishing~We apply agreed changes and schedule the posts.|Review~We discuss performance and use it to plan the following month.",
+        "factors": "Number of channels|Post volume and formats|Creative production and community management",
+        "scope": "Photography, video production, comments and inbox management can be agreed separately. Paid advertising management and media spend are not automatically included."
+      },
+      "m-ads": {
+        "headline": "Put the right offer in front of the right people.",
+        "explanation": "Advertising does not stop at launch. We plan targeting and measurement, review the available data and use it to refine campaigns and creative assets.",
+        "audience": "For businesses seeking enquiries, orders or greater awareness through Google or Meta advertising.",
+        "benefits": "A clear campaign goal~We define what to measure before launch.|Considered spending~We allocate the agreed budget according to your priorities.|Ongoing learning~Testing and reviews guide the next improvements.",
+        "steps": "Consultation~We review your offer, audience and business goals.|Campaign plan~We select channels, budgets and measurement points.|Setup and creative~We prepare ads and check the landing page and tracking setup.|Launch and optimisation~After approval, we launch and refine targeting and creative.|Reporting and next steps~We explain the results and recommend how to continue.",
+        "factors": "Number of advertising channels|Campaign and creative volume|Measurement and reporting requirements",
+        "scope": "The management fee is separate from advertising spend paid to the platforms. Your offer, competition and landing page also affect results; we do not promise a guaranteed number of sales."
+      },
+      "m-care": {
+        "headline": "Your website gets attention while you focus elsewhere.",
+        "explanation": "Outdated components, broken forms or failed updates can become business problems. Regular checks and agreed maintenance help keep your existing website in working order.",
+        "audience": "For businesses with an existing website that need a technical partner for ongoing operation.",
+        "benefits": "Regular checks~We review important functions at the agreed frequency.|Planned updates~We establish a backup and update routine suited to your system.|Clear issue handling~Reporting channels, priorities and support scope are agreed in advance.",
+        "steps": "Technical consultation~We learn about your system, hosting and previous issues.|Initial assessment~We check access, versions and backup options.|Maintenance plan~We agree on tasks, frequency and support conditions.|Routine care~We carry out the agreed updates, checks and fixes.|Summary~We report completed work and flag tasks requiring separate development.",
+        "factors": "Technology and current system condition|Frequency of checks|Support and repair scope",
+        "scope": "Supported technologies and response times are agreed after assessment. Major development, rebuilding and recovery from an existing infection may require a separate quote."
+      },
+      "m-content": {
+        "headline": "Let your online presence grow with your business.",
+        "explanation": "New services, changing offers and recurring customer questions deserve a place on your website. We combine content work with search optimisation to make pages clearer and more useful.",
+        "audience": "For businesses that want regular website updates and a considered approach to attracting search visitors.",
+        "benefits": "Current information~Customers find your latest offer and details.|Relevant content~We build around real questions and relevant search topics.|Visible progress~Available search data helps us evaluate the work.",
+        "steps": "Consultation~We review goals, existing content and search data.|Content plan~We set priorities, topics and monthly tasks.|Copy and optimisation~We create or update content, titles and descriptions.|Approval and publishing~After review, we publish the changes and check their presentation.|Measurement and refinement~We review search performance and adjust the next plan.",
+        "factors": "Number of pages and languages|Amount of new and updated content|Research and technical SEO scope",
+        "scope": "Search rankings depend on external factors, so we do not guarantee specific positions. Larger technical changes are agreed separately."
+      },
+      "o-web": {
+        "headline": "A website that builds your business. And belongs to you.",
+        "explanation": "Visitors want to understand what you offer and why they should choose you. We design a custom website that guides them through that decision and makes getting in touch straightforward.",
+        "audience": "For businesses seeking a long-term online foundation they own, with source files and access handed over.",
+        "benefits": "A clear introduction~We organise content around customer questions and business goals.|Designed for mobile too~Key information and enquiries remain accessible on smaller screens.|Full handover~After payment, we deliver the website, source files and access credentials.",
+        "steps": "Consultation~We discuss goals, audience, required functions and content.|Structure and proposal~We define the sitemap, scope and delivery schedule.|Design and copy~We present the design direction and agree on content before development.|Development and testing~We build the website and check mobile layouts, forms and navigation.|Launch and handover~After approval, we publish, transfer access and explain how to manage the site.",
+        "factors": "Number of pages and languages|Custom functions and integrations|Copywriting, images and content entry",
+        "scope": "Once the full project fee is paid, the website is fully yours. Domain, hosting and third-party licence fees are agreed separately; future maintenance is optional."
+      },
+      "o-shop": {
+        "headline": "Easy to find. Straightforward to buy.",
+        "explanation": "Product presentation, navigation and checkout need to work together. We build a shopping journey that clearly guides visitors from your catalogue to submitting an order.",
+        "audience": "For retailers and makers starting online sales or moving to a better organised store.",
+        "benefits": "A clear catalogue~Logical categories and product information help customers choose.|A practical checkout~Payment and shipping options fit your business.|Manageable operations~We show you how to manage products and orders at handover.",
+        "steps": "Business consultation~We discuss products, markets and the sales process.|System plan~We select the platform, categories and required integrations.|Design and build~We create the store and upload the agreed product range.|Test order~We check the cart, payment and shipping flow, and notifications.|Launch and training~After approval, we launch the store and explain its operation.",
+        "factors": "Number of products and variants|Payment, shipping and invoicing integrations|Platform and custom functions",
+        "scope": "Platform, payment provider and external module fees may be additional costs. You supply product data and the required legal information."
+      },
+      "o-landing": {
+        "headline": "One offer. One clear next step.",
+        "explanation": "A campaign works best when visitors arrive at a relevant offer. We organise the arguments, information and enquiry or registration flow around one goal.",
+        "audience": "For a service launch, event or targeted campaign where visitors should take a specific action.",
+        "benefits": "A focused message~The page speaks to one offer and audience.|A persuasive structure~Benefits, common questions and genuine evidence follow a clear sequence.|Easy contact~Visible calls to action and a suitable form support the next step.",
+        "steps": "Define the goal~We clarify the offer, audience and desired action.|Message and structure~We plan the arguments, sections and required content.|Design and build~We create the mobile-friendly page and form.|Checks and measurement~We test submissions and the agreed tracking setup.|Campaign-ready handover~After approval, we publish and hand over the page.",
+        "factors": "Content and section scope|Forms and integrations|Measurement setup and language versions",
+        "scope": "Advertising management and media spend are separate services. We use the genuine references and claims you provide."
+      },
+      "o-brand": {
+        "headline": "Make your business recognisable on every channel.",
+        "explanation": "When every post and document looks different, it is harder to create a consistent impression. We create practical digital brand foundations and templates for your future communication.",
+        "audience": "For new brands and businesses looking to bring their existing visual identity into a consistent system.",
+        "benefits": "Connected channels~Colours and type consistently express your brand’s character.|Reusable templates~Everyday content creation starts with a useful foundation.|Practical guidance~A concise guide explains how to use the finished assets.",
+        "steps": "Brand consultation~We learn about your business character and channels.|Visual direction~We agree on mood, colours and typography.|Brand assets~We create the selected templates and email signature.|Refinement~We apply agreed feedback and check visual consistency.|Handover and guide~We deliver the agreed formats and usage guidance.",
+        "factors": "Number of templates and channels|Existing brand materials|Required file formats and revision rounds",
+        "scope": "Logo design, print materials and paid font or image licences can be agreed separately. The proposal specifies the editable formats to be delivered."
+      },
+      "o-audit": {
+        "headline": "Know what is worth changing first.",
+        "explanation": "A new website is not always the next step. First, we examine where visitors get stuck, what is missing from your online presence and which improvements best support your business goals.",
+        "audience": "For businesses seeking clarity and priorities before investing in development or marketing.",
+        "benefits": "An outside perspective~We review your digital channels from a customer’s point of view.|Specific actions~Recommendations address the issues we actually identify.|A basis for decisions~Priorities guide your next development or marketing steps.",
+        "steps": "Consultation~We discuss your goals and current challenges.|Information gathering~We collect relevant links and analytics access where needed.|Review~We assess the website, content, SEO fundamentals and social presence.|Recommendations~We summarise findings and prioritise actions.|Results discussion~We present the report and answer questions about the next steps.",
+        "factors": "Number of pages and channels reviewed|Depth of analysis|Available data and access",
+        "scope": "The deliverable is an analysis and recommendations. Implementing changes is a separate service; this is not a comprehensive security or legal audit."
+      }
+    }
+  }
+}

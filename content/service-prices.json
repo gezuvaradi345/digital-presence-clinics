@@ -1,0 +1,32 @@
+{
+  "m-web": {
+    "amount": null
+  },
+  "m-social": {
+    "amount": null
+  },
+  "m-ads": {
+    "amount": null
+  },
+  "m-care": {
+    "amount": null
+  },
+  "m-content": {
+    "amount": null
+  },
+  "o-web": {
+    "amount": null
+  },
+  "o-shop": {
+    "amount": null
+  },
+  "o-landing": {
+    "amount": null
+  },
+  "o-brand": {
+    "amount": null
+  },
+  "o-audit": {
+    "amount": null
+  }
+}

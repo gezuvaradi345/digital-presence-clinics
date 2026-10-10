@@ -181,7 +181,7 @@ if (servicesTrigger && servicesMenu) {
 const requestedService = new URLSearchParams(window.location.search).get('service');
 if (contactForm && requestedService && /^[mo]-(web|social|ads|care|content|shop|landing|brand|audit)$/.test(requestedService)) {
   const [plan, serviceId] = requestedService.split('-');
-  const selectedLink = document.querySelector(`.services-menu a[href="${plan === 'm' ? 'havi' : 'egyszeri'}-szolgaltatasok.html#${serviceId}"]`);
+  const selectedLink = document.querySelector(`.services-menu a[data-service="${plan}-${serviceId}"]`);
   if (selectedLink && ['m', 'o'].includes(plan)) {
     const select = contactForm.querySelector('select[name="interest"]');
     const label = `${selectedLink.closest('section').querySelector('h2').textContent} — ${selectedLink.textContent.replace('↗', '').trim()}`;
