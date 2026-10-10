@@ -414,3 +414,47 @@ h1, h2, h3 { margin: 0; font-family: "Manrope", sans-serif; line-height: 1.12; l
 @media (min-width: 901px) { .site-header .nav { gap: 22px; } }
 @media (max-width: 900px) { .language-switch { margin-right: 10px; } }
 @media (max-width: 400px) { .brand { font-size: 11px; gap: 6px; } .brand__mark { width: 28px; height: 28px; } .language-switch { margin-right: 5px; } .language-switch a { padding: 8px 5px; } }
+
+/* Service plans and accessible two-column navigation. */
+.services-trigger { display: flex; align-items: center; gap: 7px; border: 0; padding: 10px 0; background: transparent; color: #4f6076; font: inherit; cursor: pointer; }
+.services-trigger[aria-expanded="true"] { color: var(--blue); }
+.services-menu { position: absolute; top: calc(100% + 12px); right: 0; width: min(760px, calc(100vw - 48px)); display: grid; grid-template-columns: 1fr 1fr; padding: 26px; gap: 28px; border: 1px solid #dbe5f6; border-radius: 22px; background: #f8fbff; box-shadow: var(--shadow); max-height: calc(100dvh - 125px); overflow-y: auto; }
+.services-menu[hidden] { display: none; }
+.services-menu section + section { border-left: 1px solid #dbe5f6; padding-left: 28px; }
+.services-menu h2 { font-size: 14px; margin: 0 0 12px; color: var(--blue); }
+.services-menu a { display: flex; justify-content: space-between; gap: 12px; padding: 10px 0; line-height: 1.5; }
+.services-menu a:hover { color: var(--blue); }
+.services-trigger:focus-visible, .services-menu a:focus-visible, .service-tabs a:focus-visible { outline: 2px solid var(--blue); outline-offset: 5px; }
+.service-plans { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.service-plans .service-card { padding: 36px; }
+.service-plans h3 { margin-top: 20px; }
+.service-list { list-style: none; margin: 24px 0; padding: 0; }
+.service-list li { border-bottom: 1px solid #dbe5f6; }
+.service-card .service-list a { margin: 0; padding: 15px 0; display: flex; justify-content: space-between; }
+.services-page { padding-top: 160px; }
+.services-intro h1 { font-size: clamp(32px, 5vw, 64px); line-height: 1.15; margin: 20px 0; }
+.services-intro > p { max-width: 680px; color: #52647c; font-size: 18px; }
+.service-tabs { display: flex; flex-wrap: wrap; gap: 12px; margin: 30px 0 40px; }
+.service-tabs a { padding: 14px 20px; background: #fff; border: 1px solid #dbe5f6; border-radius: 14px; font-size: 14px; }
+.service-tabs a[aria-current] { background: var(--blue); color: white; border-color: var(--blue); }
+.service-details { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.service-details .service-card { scroll-margin-top: 120px; display: flex; flex-direction: column; }
+.service-details .service-card:first-child { grid-column: 1 / -1; }
+.service-details h2 { font-size: 26px; margin: 20px 0 14px; }
+.service-includes { padding-left: 20px; color: #52647c; line-height: 1.8; margin-top: 20px; }
+.service-details .ownership-note { background: #edf3ff; padding: 20px; border-radius: 14px; margin-top: 20px; }
+.service-quote { margin-top: 40px; padding: 36px; }
+.service-quote p { margin: 20px 0; max-width: 700px; color: #52647c; }
+@media (max-width: 900px) {
+  .services-menu { position: static; width: 100%; margin-top: 12px; padding: 18px; gap: 18px; max-height: none; box-shadow: none; }
+  .services-menu section + section { padding-left: 18px; }
+  .nav { max-height: calc(100dvh - 100px); overflow-y: auto; visibility: hidden; }
+  .nav.open { visibility: visible; }
+  .showroom-page .menu-toggle { order: 3; }
+}
+@media (max-width: 620px) {
+  .services-menu, .service-plans, .service-details { grid-template-columns: 1fr; }
+  .services-menu section + section { border-left: 0; border-top: 1px solid #dbe5f6; padding: 18px 0 0; }
+  .service-plans .service-card { padding: 26px; }
+  .services-page { padding-top: 120px; }
+}

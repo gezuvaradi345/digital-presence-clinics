@@ -150,3 +150,41 @@ if (!prefersReducedMotion && window.matchMedia('(pointer: fine)').matches) {
     });
   });
 }
+
+const servicesTrigger = document.querySelector('.services-trigger');
+const servicesMenu = document.querySelector('.services-menu');
+if (servicesTrigger && servicesMenu) {
+  const closeServices = (restoreFocus = false) => {
+    servicesTrigger.setAttribute('aria-expanded', 'false');
+    servicesMenu.hidden = true;
+    if (restoreFocus) servicesTrigger.focus();
+  };
+  servicesTrigger.addEventListener('click', () => {
+    const expanded = servicesTrigger.getAttribute('aria-expanded') === 'true';
+    servicesTrigger.setAttribute('aria-expanded', String(!expanded));
+    servicesMenu.hidden = expanded;
+  });
+  document.addEventListener('click', (event) => {
+    if (!event.target.closest('.services-dropdown')) closeServices();
+  });
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && !servicesMenu.hidden) closeServices(true);
+  });
+  document.querySelector('.services-dropdown').addEventListener('focusout', (event) => {
+    if (!event.currentTarget.contains(event.relatedTarget)) closeServices();
+  });
+  servicesMenu.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => closeServices()));
+  if (menuButton) menuButton.addEventListener('click', () => closeServices());
+}
+
+// Carry the selected service into the existing enquiry form.
+const requestedService = new URLSearchParams(window.location.search).get('service');
+if (contactForm && requestedService && /^[mo]-(web|social|ads|care|content|shop|landing|brand|audit)$/.test(requestedService)) {
+  const [plan, serviceId] = requestedService.split('-');
+  const selectedLink = document.querySelector(`.services-menu a[href="${plan === 'm' ? 'havi' : 'egyszeri'}-szolgaltatasok.html#${serviceId}"]`);
+  if (selectedLink && ['m', 'o'].includes(plan)) {
+    const select = contactForm.querySelector('select[name="interest"]');
+    const label = `${selectedLink.closest('section').querySelector('h2').textContent} — ${selectedLink.textContent.replace('↗', '').trim()}`;
+    select.add(new Option(label, label, true, true));
+  }
+}
