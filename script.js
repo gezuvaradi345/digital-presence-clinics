@@ -179,7 +179,7 @@ if (servicesTrigger && servicesMenu) {
 
 // Carry the selected service into the existing enquiry form.
 const requestedService = new URLSearchParams(window.location.search).get('service');
-if (contactForm && requestedService && /^[mo]-(web|social|ads|care|content|shop|landing|brand|audit)$/.test(requestedService)) {
+if (contactForm && requestedService && /^[mo]-(web|social|ads|care|content|shop|landing|brand|audit|business)$/.test(requestedService)) {
   const [plan, serviceId] = requestedService.split('-');
   const selectedLink = document.querySelector(`.services-menu a[data-service="${plan}-${serviceId}"]`);
   if (selectedLink && ['m', 'o'].includes(plan)) {

@@ -28,5 +28,8 @@
   },
   "o-audit": {
     "amount": null
+  },
+  "o-business": {
+    "amount": null
   }
 }

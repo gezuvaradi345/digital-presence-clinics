@@ -29,7 +29,7 @@ Mindhárom változat tartalmazza a főoldalt és az interaktív weboldalbemutat�
 
 ## Szolgáltatásoldalak
 
-Mind a tíz szolgáltatás külön, statikus oldalt kapott magyar, szlovák és angol nyelven. A menü és a kategóriaoldalak ezekre mutatnak. Az oldalak előnyöket, szolgáltatási tartalmat, öt folyamatlépést, árpanelt, gyakori kérdéseket és ajánlatkérést tartalmaznak.
+Mind a tizenegy szolgáltatás külön, statikus oldalt kapott magyar, szlovák és angol nyelven. A menü és a kategóriaoldalak ezekre mutatnak. Az oldalak előnyöket, szolgáltatási tartalmat, öt folyamatlépést, árpanelt, gyakori kérdéseket és ajánlatkérést tartalmaznak.
 
 - Szövegek: `content/services.json`, nyelvenként a `pages` kulcs alatt.
 - Árak: `content/service-prices.json`. Az `amount` értéke jelenleg `null`, ezért az oldalon „Egyedi ajánlat” jelenik meg. A végleges euróösszeget számként kell megadni; havi szolgáltatásnál automatikusan megjelenik a havi egység. Minden nyelv ugyanazt az összeget használja.
@@ -48,3 +48,5 @@ Minden szolgáltatásoldal saját, helyben működő bemutatót tartalmaz. A web
 - AI-képek és generálási promptok: `assets/service-demos/README.md`.
 
 A minták nem küldenek űrlapot, nem indítanak valódi kampányt és nem hoznak létre rendelést. Az adatok, reakciók és kosárállapot kizárólag az adott oldal helyi bemutatóállapotában élnek. A felugró ablakok Escape-pel bezárhatók, a bemutatók az Újrakezdés gombbal alaphelyzetbe állíthatók.
+
+A „Komplett üzleti arculat” (`o-business`, `komplett-uzleti-arculat.html`) egyszeri csomagként szerepel a kínálatban. Saját bemutatója végigveszi a weboldalt, SEO-t, közösségi indulást, logót, email-aláírást és a nyomtatott arculat terveit. A „Csak most” panel szövege a szolgáltatás `offerLabel`, `offerTitle`, `offerText` mezőiben szerkeszthető.

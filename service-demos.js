@@ -3,7 +3,7 @@
   if (!root) return;
   const copy = JSON.parse(document.getElementById('service-demo-copy').textContent);
   const key = root.dataset.serviceDemo;
-  const kind = ({'m-web':'web','o-web':'web','m-social':'social','m-ads':'ads','m-care':'care','m-content':'content','o-shop':'shop','o-landing':'landing','o-brand':'brand','o-audit':'audit'})[key];
+  const kind = ({'m-web':'web','o-web':'web','m-social':'social','m-ads':'ads','m-care':'care','m-content':'content','o-shop':'shop','o-landing':'landing','o-brand':'brand','o-audit':'audit','o-business':'business'})[key];
   const c = copy[kind];
   const assets = root.dataset.assets;
   const photos = ['pottery-process.jpg', 'ceramic-collection.jpg', 'studio-story.jpg'];
@@ -30,8 +30,18 @@
   const landing = () => `<div class="demo-canvas"><div class="landing-preview"><span class="demo-eyebrow">${e(copy.web.brand)}</span><h3>${e(c.title)}</h3><p>${e(c.copy)}</p>${button(c.cta,'landing-form',undefined,'class="demo-primary"')}</div><h4>${e(c.why)}</h4><div class="landing-reasons">${c.reasons.map((r,i)=>`<span><b>0${i+1}</b>${e(r)}</span>`).join('')}</div></div>`;
   const brand = () => {const colors=['#285ee0','#a04c35','#376554'];return `<div class="demo-canvas"><h3>${e(c.title)}</h3>${tabs(c.palettes,'palette',state.palette)}${tabs(c.fonts,'font',state.font)}<div class="brand-preview" style="--sample-color:${colors[state.palette]};--sample-font:${state.font?'Georgia, serif':'Manrope, sans-serif'}"><div class="brand-web"><span>${e(copy.web.brand)}</span><h4>${e(c.sample)}</h4><p>${e(c.copy)}</p></div><div class="brand-post"><span>F.</span><p>${e(c.sample)}</p></div><div class="brand-signature"><b>F.</b><span>${e(c.signature)}<small>hello@example.com</small></span></div></div></div>`;};
   const audit = () => `${tabs(c.tabs)}<div class="demo-canvas"><span class="demo-eyebrow">${e(c.priority)}</span><h3>${e(c.title)}</h3><div class="audit-sample ${state.improved?'is-improved':''}"><span class="audit-symbol" aria-hidden="true">${state.improved?'✓':'!'}</span><h4>${e((state.improved?c.solutions:c.problems)[state.tab])}</h4><div class="audit-visual" aria-hidden="true">${Array.from({length:state.improved?3:7},(_,i)=>`<i style="width:${state.improved?28:10+i*4}%"></i>`).join('')}</div></div>${button(state.improved?c.back:c.toggle,'improve',undefined,`class="demo-primary" aria-pressed="${state.improved}"`)}</div>`;
-  const renderers = {web,social,ads,care,content,shop,landing,brand,audit};
-  const guideText = () => kind==='web'?c.copy[state.tab]:kind==='care'?c.guide[state.step]:c.guide;
+  const business = () => {
+    let preview = '';
+    if(state.tab===0) preview = `<div class="brand-web"><span>${e(copy.web.brand)}</span><h4>${e(c.titles[0])}</h4><p>${e(copy.web.copy[0])}</p></div>`;
+    if(state.tab===1) preview = `<div class="search-result"><span>your-business.example</span><h4>${e(copy.content.value)}</h4><p>${e(copy.content.desc)}</p></div>`;
+    if(state.tab===2) preview = `<div class="bundle-social">${['Facebook','Instagram','TikTok'].map((name,i)=>`<article><b>${name}</b><span>${e(copy.web.brand)}</span><p>${e(i===2?c.video:c.first)}</p></article>`).join('')}</div>`;
+    if(state.tab===3) preview = `<div class="bundle-logo"><span aria-hidden="true">F.</span><strong>${e(copy.web.brand)}</strong></div>`;
+    if(state.tab===4) preview = `<div class="brand-signature"><b aria-hidden="true">F.</b><span>${e(c.name)} · ${e(c.role)}<small>hello@example.com · www.example.com</small></span></div>`;
+    if(state.tab===5) preview = `<div class="bundle-print"><div><small>${e(c.card)}</small><b>${e(c.name)}</b><span>${e(c.role)}</span><small>hello@example.com</small></div><div class="bundle-stamp"><small>${e(c.stamp)}</small><b>${e(c.role)}</b><span>www.example.com</span></div></div>`;
+    return `${tabs(c.tabs)}<div class="demo-canvas"><h3>${e(c.titles[state.tab])}</h3><div class="bundle-preview" style="--sample-color:#285ee0;--sample-font:Manrope,sans-serif">${preview}</div><p>${e(c.guide[state.tab])}</p></div>`;
+  };
+  const renderers = {web,social,ads,care,content,shop,landing,brand,audit,business};
+  const guideText = () => kind==='web'?c.copy[state.tab]:kind==='care'?c.guide[state.step]:kind==='business'?c.guide[state.tab]:c.guide;
   root.innerHTML = `<div class="demo-layout ${kind==='social'?'demo-layout--social':''}"><div class="demo-stage"></div><aside class="demo-guide"><span class="demo-eyebrow">${e(copy.guide)}</span><p data-demo-explanation aria-live="polite"></p><span class="demo-disclaimer">${e(copy.demo)}</span>${button(copy.reset,'reset')}</aside></div><dialog class="demo-dialog" aria-labelledby="demo-dialog-title"><div class="demo-dialog-head"><h3 id="demo-dialog-title"></h3>${button(copy.close,'close')}</div><div class="demo-dialog-body"></div></dialog>`;
   const stage = root.querySelector('.demo-stage');
   const guide = root.querySelector('[data-demo-explanation]');

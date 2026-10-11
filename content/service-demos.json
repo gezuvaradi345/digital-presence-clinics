@@ -207,6 +207,39 @@
       "back": "Eredeti minta",
       "priority": "Példa a kiemelt teendőkre",
       "guide": "A felmérés a problémák mellett prioritásokat és javítási javaslatokat ad. Válasszon témát, majd nézze meg a javított mintát!"
+    },
+    "business": {
+      "title": "Egy márka, minden felületen.",
+      "tabs": [
+        "Weboldal",
+        "SEO",
+        "Közösségi oldalak",
+        "Logó",
+        "Email-aláírás",
+        "Csak most"
+      ],
+      "titles": [
+        "Az Ön vállalkozásának online otthona.",
+        "Találják meg, amit kínál.",
+        "Facebook. Instagram. TikTok.",
+        "Az Ön márkájának saját jele.",
+        "Professzionális minden elküldött levélben.",
+        "Névjegykártya és bélyegzőlenyomat."
+      ],
+      "guide": [
+        "A weboldal központi felületként mutatja be az ajánlatot és vezeti az érdeklődőt a kapcsolatfelvételig. A csomagban a saját tulajdonú weboldal készül el.",
+        "Az induló SEO része a logikus oldalstruktúra, a releváns címek és leírások, valamint a kereshetőség alapbeállítása. A folyamatos SEO-gondozás külön egyeztethető.",
+        "Mindhárom platformhoz elkészítjük és beállítjuk a profilt, majd az egyeztetett első tartalmakat. A posztok és TikTok-videók mennyiségét, formátumát és alapanyagait előre tisztázzuk.",
+        "A logó a márka karakterét foglalja össze. A használati felületekhez illő változatokat és átadási formátumokat az ajánlatban rögzítjük.",
+        "A név, elérhetőség, logó és a fontos hivatkozások rendezett aláírást alkotnak. Elkészítjük és beállítjuk a megbeszélt levelezőben, a szükséges hozzáféréssel.",
+        "A névjegykártya és a bélyegzőlenyomat megjelenését is megtervezzük. Ez látványterv; a nyomtatás és a bélyegző gyártása külön rendelhető."
+      ],
+      "first": "Profil + első tartalom",
+      "video": "Profil + első videós tartalom",
+      "name": "Az Ön neve",
+      "role": "Az Ön vállalkozása",
+      "stamp": "BÉLYEGZŐLENYOMAT · MINTA",
+      "card": "NÉVJEGYKÁRTYA · MINTA"
     }
   },
   "en": {
@@ -417,6 +450,39 @@
       "back": "Original sample",
       "priority": "Sample priority actions",
       "guide": "A review offers priorities and recommendations as well as findings. Pick a topic, then compare the improved sample!"
+    },
+    "business": {
+      "title": "One brand across every channel.",
+      "tabs": [
+        "Website",
+        "SEO",
+        "Social profiles",
+        "Logo",
+        "Email signature",
+        "Only now"
+      ],
+      "titles": [
+        "An online home for your business.",
+        "Help people find your offer.",
+        "Facebook. Instagram. TikTok.",
+        "Your brand’s own mark.",
+        "Professional in every email.",
+        "Business card and stamp impression."
+      ],
+      "guide": [
+        "Your website presents the offer and guides visitors towards contact. The package includes a website with full ownership.",
+        "Initial SEO includes a logical structure, relevant titles and descriptions, and basic discoverability settings. Ongoing SEO is available separately.",
+        "We create and configure all three profiles and prepare the agreed initial content. Post and TikTok video volume, formats and source materials are agreed in advance.",
+        "A logo expresses your brand’s character. The proposal defines variants for different uses and the file formats delivered.",
+        "Your name, contact details, logo and key links form an organised signature. We create and configure it in the agreed email client with the required access.",
+        "We also design the business card and stamp impression. These are visual designs; printing and stamp manufacture are ordered separately."
+      ],
+      "first": "Profile + first content",
+      "video": "Profile + first video content",
+      "name": "Your name",
+      "role": "Your business",
+      "stamp": "STAMP IMPRESSION · SAMPLE",
+      "card": "BUSINESS CARD · SAMPLE"
     }
   },
   "sk": {
@@ -627,6 +693,39 @@
       "back": "Pôvodná ukážka",
       "priority": "Príklady prioritných úloh",
       "guide": "Posúdenie ponúka okrem problémov aj priority a návrhy úprav. Vyberte tému a porovnajte vylepšenú ukážku!"
+    },
+    "business": {
+      "title": "Jedna značka na každom kanáli.",
+      "tabs": [
+        "Web",
+        "SEO",
+        "Sociálne siete",
+        "Logo",
+        "Emailový podpis",
+        "Len teraz"
+      ],
+      "titles": [
+        "Online domov vášho podnikania.",
+        "Nech nájdu to, čo ponúkate.",
+        "Facebook. Instagram. TikTok.",
+        "Vlastný symbol vašej značky.",
+        "Profesionálne v každom emaile.",
+        "Vizitka a odtlačok pečiatky."
+      ],
+      "guide": [
+        "Web predstaví ponuku a vedie záujemcu ku kontaktu. Balík zahŕňa web do vlastného vlastníctva.",
+        "Úvodné SEO zahŕňa logickú štruktúru, relevantné titulky a popisy a základné nastavenia vyhľadateľnosti. Priebežné SEO možno dohodnúť osobitne.",
+        "Na všetkých troch platformách vytvoríme a nastavíme profil a pripravíme prvý dohodnutý obsah. Počet, formát a podklady príspevkov a videí pre TikTok určíme vopred.",
+        "Logo vystihuje charakter značky. Varianty pre jednotlivé použitia a odovzdávané formáty uvedieme v ponuke.",
+        "Meno, kontakty, logo a dôležité odkazy vytvoria prehľadný podpis. Vytvoríme ho a nastavíme v dohodnutom programe s potrebným prístupom.",
+        "Navrhneme aj vzhľad vizitky a odtlačku pečiatky. Ide o vizuálne návrhy; tlač a výroba pečiatky sa objednávajú osobitne."
+      ],
+      "first": "Profil + prvý obsah",
+      "video": "Profil + prvý videoobsah",
+      "name": "Vaše meno",
+      "role": "Vaša firma",
+      "stamp": "ODTLAČOK PEČIATKY · UKÁŽKA",
+      "card": "VIZITKA · UKÁŽKA"
     }
   }
 }

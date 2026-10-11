@@ -1,4 +1,4 @@
-"""Build the 30 static service pages: python3 scripts/build-service-pages.py."""
+"""Build the static service pages: python3 scripts/build-service-pages.py."""
 from pathlib import Path
 import json
 import re
@@ -14,6 +14,7 @@ ROUTES = {
     'm-content': 'tartalom-es-seo.html', 'o-web': 'weboldalkeszites.html',
     'o-shop': 'webshopkeszites.html', 'o-landing': 'kampanyoldal.html',
     'o-brand': 'digitalis-arculat.html', 'o-audit': 'digitalis-audit.html',
+    'o-business': 'komplett-uzleti-arculat.html',
 }
 CATEGORIES = {'m': 'havi-szolgaltatasok.html', 'o': 'egyszeri-szolgaltatasok.html'}
 UI = {
@@ -53,7 +54,7 @@ def create_page(lang, key, item, template):
     head = re.sub(r'<title>.*?</title>', f'<title>{esc(name)} — Gejza Váradi - Digital Solutions</title>', head)
     head = re.sub(r'(<meta\s+name="description"\s+content=")[^"]*', lambda m: m[1] + esc(description), head)
     head = head.replace(CATEGORIES[plan], route)
-    head = head.replace('</head>', f'  <link rel="stylesheet" href="{prefix}service-page.css?v=1" />\n    <link rel="stylesheet" href="{prefix}service-demos.css?v=1" />\n  </head>')
+    head = head.replace('</head>', f'  <link rel="stylesheet" href="{prefix}service-page.css?v=2" />\n    <link rel="stylesheet" href="{prefix}service-demos.css?v=2" />\n  </head>')
     benefits = ''.join(f'<article class="detail-panel glass"><span class="panel-index" aria-hidden="true">0{i}</span><h3>{esc(title)}</h3><p>{esc(body)}</p></article>' for i, (title, body) in enumerate(pairs(content['benefits']), 1))
     steps = ''.join(f'<li><span class="step-number" aria-hidden="true">0{i}</span><div><h3>{esc(title)}</h3><p>{esc(body)}</p></div></li>' for i, (title, body) in enumerate(pairs(content['steps']), 1))
     inclusions = ''.join(f'<li>{esc(value)}</li>' for value in included.split('|'))
@@ -67,6 +68,9 @@ def create_page(lang, key, item, template):
         other = 'o-web' if plan == 'm' else 'm-web'
         crosslink = f'<p class="alternative-plan">{ui["other"]} <a href="{ROUTES[other]}">{ui["otherOwn" if plan == "m" else "otherRental"]}</a></p>'
     example = f'<a class="text-link" href="weboldalak.html">{d["examples"]} ↗</a>' if key in ('m-web', 'o-web', 'o-shop', 'o-landing') else ''
+    offer = ''
+    if content.get('offerTitle'):
+        offer = f'<section class="section-shell detail-bundle-offer glass"><span class="kicker">{esc(content["offerLabel"])}</span><h2>{esc(content["offerTitle"])}</h2><p>{esc(content["offerText"])}</p></section>'
     return f'''{head}
 <body class="service-detail-page">
   <div class="ambient" aria-hidden="true"><span class="orb orb--blue"></span><span class="orb orb--mint"></span><span class="grain"></span></div>
@@ -87,6 +91,7 @@ def create_page(lang, key, item, template):
       </aside>
     </section>
     <nav class="section-shell detail-jumps" aria-label="{ui['nav']}"><a href="#demo">{demo['label']}</a><a href="#benefits">{ui['benefit']}</a><a href="#included">{ui['includes']}</a><a href="#process">{ui['process']}</a><a href="#pricing">{ui['pricing']}</a></nav>
+{offer}
     <section class="section-shell service-demo-section" id="demo">
       <div class="detail-heading"><span class="kicker">{demo['label']}</span><h2>{demo['heading']}</h2><p>{demo['intro']}</p></div>
       <div data-service-demo="{key}" data-assets="{prefix}assets/service-demos/"><noscript><p>{demo['nojs']}</p></noscript></div>
@@ -115,8 +120,8 @@ def create_page(lang, key, item, template):
     <section class="section-shell detail-promo"><span class="kicker">Gejza Váradi · Digital Solutions</span><h2>{ui['promo']}</h2><p>{ui['promoText']}</p><div class="detail-actions"><a class="button" href="{enquiry}">{d['cta']} →</a><a class="text-link" href="index.html#work">{ui['proof']}</a></div></section>
   </main>
   <footer class="footer section-shell"><a href="{CATEGORIES[plan]}">{category}</a><p>© <span id="year"></span> Gejza Váradi - Digital Solutions</p></footer>
-  <script src="{prefix}script.js?v=9"></script>
-  <script src="{prefix}service-demos.js?v=1"></script>
+  <script src="{prefix}script.js?v=10"></script>
+  <script src="{prefix}service-demos.js?v=2"></script>
 </body>
 </html>
 '''
@@ -134,7 +139,7 @@ for lang in DATA:
     folder = ROOT if lang == 'hu' else ROOT / lang
     for filename in ('index.html', 'weboldalak.html', *CATEGORIES.values()):
         path = folder / filename
-        text = update_links(path.read_text()).replace('script.js?v=8', 'script.js?v=9')
+        text = update_links(path.read_text()).replace('script.js?v=8', 'script.js?v=10')
         if filename in CATEGORIES.values():
             plan = next(key for key, value in CATEGORIES.items() if value == filename)
             for service, title, _, _ in DATA[lang][plan]:
@@ -146,4 +151,4 @@ for lang in DATA:
                 if detail not in text:
                     text = text.replace(marker, detail + marker)
         path.write_text(text)
-print('Built 30 service pages and updated navigation in all three languages.')
+print(f'Built {len(ROUTES) * len(DATA)} service pages and updated navigation in all three languages.')

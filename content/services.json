@@ -75,6 +75,12 @@
         "Digitális állapotfelmérés",
         "Áttekintjük weboldalát és online jelenlétét, majd konkrét javítási tervet adunk.",
         "Weboldal és felhasználói élmény áttekintése|SEO és közösségi jelenlét felmérése|Prioritásokkal ellátott javaslatlista"
+      ],
+      [
+        "business",
+        "Komplett üzleti arculat",
+        "Weboldal, induló SEO, Facebook-, Instagram- és TikTok-oldalak az első tartalmakkal. Egységes megjelenés a vállalkozása indulásához vagy megújulásához.",
+        "Egyedi, saját tulajdonú weboldal|Induló SEO: oldalstruktúra, címek, leírások és kereshetőségi alapok|Facebook-, Instagram- és TikTok-oldalak létrehozása és beállítása|Első közösségimédia-tartalmak elkészítése és közzététele egyeztetett mennyiségben|Logótervezés és egységes vizuális alapok|Professzionális email-aláírás elkészítése és beállítása|Névjegykártya és bélyegzőlenyomat látványterve"
       ]
     ],
     "pages": {
@@ -167,6 +173,18 @@
         "steps": "Konzultáció~Megbeszéljük az üzleti célokat és a jelenlegi nehézségeket.|Információgyűjtés~Bekérjük a releváns linkeket és szükség szerint az elemzési hozzáféréseket.|Vizsgálat~Átnézzük a weboldalt, a tartalmakat, a SEO alapokat és a közösségi jelenlétet.|Javaslatlista~Összefoglaljuk a megállapításokat, és rangsoroljuk a teendőket.|Eredmények átbeszélése~Bemutatjuk a jelentést és megválaszoljuk a következő lépésekkel kapcsolatos kérdéseket.",
         "factors": "Vizsgált oldalak és csatornák száma|Elemzés mélysége|Rendelkezésre álló adatok és hozzáférések",
         "scope": "A szolgáltatás eredménye elemzés és javaslatlista. A javítások kivitelezése külön rendelhető; ez a felmérés nem teljes körű biztonsági vagy jogi audit."
+      },
+      "o-business": {
+        "headline": "Egy vállalkozás. Egy összhangban működő arculat.",
+        "explanation": "A logó, a weboldal és a közösségi oldalak ugyanannak a vállalkozásnak a történetét meséljék. Egy csomagban építjük fel az induláshoz szükséges felületeket, összehangoljuk a megjelenést, és az első tartalmakat is elkészítjük. Így a közönsége minden találkozáskor ugyanazt a márkát ismeri fel.",
+        "audience": "Induló vállalkozásoknak és megújuló cégeknek, amelyek a logótól a weboldalon át az első közösségi posztokig egy kézben szeretnék tudni a megvalósítást.",
+        "benefits": "Minden felület összhangban~Közös vizuális irányt kap a weboldal, a logó és a közösségi jelenlét.|Tartalommal induló oldalak~A Facebook, Instagram és TikTok felületei az egyeztetett első tartalmakkal indulnak.|Egy partner, átlátható folyamat~Egyetlen egyeztetett terv kapcsolja össze a tervezést, a kivitelezést és az átadást.",
+        "steps": "Konzultáció és csomagterv~Átbeszéljük a vállalkozás célját, közönségét, szükséges felületeit és a meglévő anyagokat.|Márka és vizuális irány~Megtervezzük a logót, színeket és betűhasználatot, majd közösen jóváhagyjuk az arculatot.|Weboldal és SEO~Elkészítjük a weboldalt, a tartalmi felépítést, az oldalcímeket és a kereshetőségi alapbeállításokat.|Közösségi indulás~Létrehozzuk és beállítjuk a Facebook-, Instagram- és TikTok-oldalakat; jóváhagyás után közzétesszük az első tartalmakat.|Aláírás, extra tervek és átadás~Beállítjuk az email-aláírást, átadjuk a névjegykártya és a bélyegzőlenyomat terveit, a fájlokat és a hozzáféréseket.",
+        "factors": "Weboldal mérete, nyelvei és funkciói|Első posztok és videós tartalmak mennyisége, rendelkezésre álló alapanyagok|Arculati változatok, módosítási körök és email-fiókok száma",
+        "scope": "Egyszeri induló csomag: a folyamatos SEO, közösségimédia-kezelés és hirdetéskezelés külön szolgáltatás. A kezdeti tartalmak mennyiségét és a TikTok-videók formátumát előre egyeztetjük. Az ügyfél közreműködésével és saját fiókjaiban dolgozunk, a platformok szükséges ellenőrzéseivel. A teljes díj rendezése után a weboldalt, az elkészült arculati fájlokat és a hozzáféréseket átadjuk. A domain, tárhely és külső licencek költségeit külön egyeztetjük. A névjegykártya és bélyegző esetében a látványterv készül el; a nyomtatás és a bélyegző gyártása külön tétel. Az email-aláírás beállítását az egyeztetett levelezőben és fiókokban végezzük.",
+        "offerLabel": "Csak most · arculati extrák",
+        "offerTitle": "Az első benyomás minden részletében.",
+        "offerText": "A csomag részeként logót, névjegykártya-látványtervet és bélyegzőlenyomat-tervet is készítünk, a professzionális email-aláírást pedig beállítjuk az egyeztetett levelezőben."
       }
     }
   },
@@ -246,6 +264,12 @@
         "Digitálny audit",
         "Posúdime váš web a online prezentáciu a pripravíme plán zlepšení.",
         "Posúdenie webu a používateľskej skúsenosti|Analýza SEO a sociálnych sietí|Odporúčania zoradené podľa priority"
+      ],
+      [
+        "business",
+        "Kompletná firemná identita",
+        "Web, úvodné SEO a stránky na Facebooku, Instagrame a TikToku s prvým obsahom. Jednotná prezentácia pre štart alebo obnovu vášho podnikania.",
+        "Web na mieru do vlastného vlastníctva|Úvodné SEO: štruktúra, titulky, popisy a základy vyhľadateľnosti|Vytvorenie a nastavenie stránok na Facebooku, Instagrame a TikToku|Príprava a zverejnenie prvého obsahu v dohodnutom množstve|Návrh loga a jednotné vizuálne základy|Vytvorenie a nastavenie profesionálneho emailového podpisu|Vizuálny návrh vizitky a odtlačku pečiatky"
       ]
     ],
     "pages": {
@@ -338,6 +362,18 @@
         "steps": "Konzultácia~Preberieme ciele a súčasné ťažkosti.|Zber informácií~Vyžiadame si odkazy a podľa potreby analytické prístupy.|Posúdenie~Prejdeme web, obsah, základy SEO a sociálne siete.|Odporúčania~Zhrnieme zistenia a zoradíme úlohy podľa priority.|Prezentácia výsledkov~Vysvetlíme správu a odpovieme na otázky k ďalším krokom.",
         "factors": "Počet hodnotených stránok a kanálov|Hĺbka analýzy|Dostupné údaje a prístupy",
         "scope": "Výstupom je analýza a odporúčania. Realizácia úprav je samostatná služba; nejde o komplexný bezpečnostný ani právny audit."
+      },
+      "o-business": {
+        "headline": "Jedna firma. Jednotná identita na každom kroku.",
+        "explanation": "Logo, web aj sociálne siete majú rozprávať príbeh tej istej firmy. V jednom balíku pripravíme potrebné kanály, zladíme ich vzhľad a vytvoríme aj prvý obsah. Zákazníci tak spoznajú vašu značku pri každom kontakte.",
+        "audience": "Pre nové firmy aj značky, ktoré sa obnovujú a chcú mať realizáciu od loga cez web po prvé príspevky u jedného partnera.",
+        "benefits": "Jednotné kanály~Web, logo a sociálne siete vychádzajú zo spoločného vizuálneho smeru.|Štart s obsahom~Facebook, Instagram a TikTok spustíme s dohodnutým prvým obsahom.|Jeden partner a jasný postup~Spoločný plán prepája návrh, realizáciu a odovzdanie.",
+        "steps": "Konzultácia a plán balíka~Preberieme ciele, publikum, potrebné kanály a dostupné podklady.|Značka a vizuálny smer~Navrhneme logo, farby a typografiu a spoločne schválime identitu.|Web a SEO~Vytvoríme web, obsahovú štruktúru, titulky a základné nastavenia vyhľadateľnosti.|Štart sociálnych sietí~Vytvoríme a nastavíme Facebook, Instagram a TikTok a po schválení zverejníme prvý obsah.|Podpis, extra návrhy a odovzdanie~Nastavíme emailový podpis, odovzdáme návrhy vizitky a odtlačku pečiatky, súbory a prístupy.",
+        "factors": "Rozsah webu, jazyky a funkcie|Množstvo prvých príspevkov a videí a dostupné podklady|Vizuálne varianty, kolá úprav a počet emailových účtov",
+        "scope": "Jednorazový štartovací balík: priebežné SEO, správa sociálnych sietí a reklamy sú samostatné služby. Množstvo prvého obsahu a formát videí pre TikTok dohodneme vopred. Pracujeme v účtoch klienta s jeho súčinnosťou a potrebným overením platforiem. Po úhrade celej ceny odovzdáme web, hotové vizuálne súbory a prístupy. Doména, hosting a externé licencie sa dohodnú osobitne. Pri vizitke a pečiatke ide o vizuálny návrh; tlač a výroba pečiatky sú samostatné položky. Emailový podpis nastavíme v dohodnutom programe a účtoch.",
+        "offerLabel": "Len teraz · vizuálne doplnky",
+        "offerTitle": "Prvý dojem v každom detaile.",
+        "offerText": "Súčasťou balíka je návrh loga, vizitky a odtlačku pečiatky. Profesionálny emailový podpis nastavíme v dohodnutom emailovom programe."
       }
     }
   },
@@ -417,6 +453,12 @@
         "Digital presence audit",
         "We review your website and online presence and deliver an actionable improvement plan.",
         "Website and user experience review|SEO and social presence assessment|Prioritised recommendations"
+      ],
+      [
+        "business",
+        "Complete business identity",
+        "A website, initial SEO and Facebook, Instagram and TikTok profiles with their first content. A consistent presence for launching or refreshing your business.",
+        "A custom website with full ownership|Initial SEO: page structure, titles, descriptions and discoverability basics|Creation and setup of Facebook, Instagram and TikTok profiles|Creation and publication of an agreed amount of initial social content|Logo design and consistent visual foundations|Professional email signature creation and setup|Business card and stamp impression designs"
       ]
     ],
     "pages": {
@@ -509,6 +551,18 @@
         "steps": "Consultation~We discuss your goals and current challenges.|Information gathering~We collect relevant links and analytics access where needed.|Review~We assess the website, content, SEO fundamentals and social presence.|Recommendations~We summarise findings and prioritise actions.|Results discussion~We present the report and answer questions about the next steps.",
         "factors": "Number of pages and channels reviewed|Depth of analysis|Available data and access",
         "scope": "The deliverable is an analysis and recommendations. Implementing changes is a separate service; this is not a comprehensive security or legal audit."
+      },
+      "o-business": {
+        "headline": "One business. One consistent identity.",
+        "explanation": "Your logo, website and social profiles should tell the same business story. We build your launch channels in one package, align their visual identity and create the first content too. Customers encounter a recognisable brand at every touchpoint.",
+        "audience": "For new businesses and brands refreshing their identity that want one partner for everything from the logo and website to the first social posts.",
+        "benefits": "Consistency across channels~Your website, logo and social presence share a visual direction.|Launch with content~Facebook, Instagram and TikTok start with the agreed initial content.|One partner, a clear process~A shared plan connects design, production and handover.",
+        "steps": "Consultation and package plan~We discuss your goals, audience, channels and existing materials.|Brand and visual direction~We design the logo, colours and typography and agree on the identity together.|Website and SEO~We build the website, content structure, page titles and basic search settings.|Social launch~We create and configure Facebook, Instagram and TikTok profiles and publish the first approved content.|Signature, extra designs and handover~We configure the email signature and hand over card and stamp impression designs, files and access.",
+        "factors": "Website size, languages and functions|Initial post and video volume and available source materials|Design variations, revision rounds and number of email accounts",
+        "scope": "A one-time launch package: ongoing SEO, social media management and advertising are separate services. Initial content volume and TikTok video formats are agreed in advance. We work in the client’s accounts with their cooperation and the platforms’ required verification. After full payment, we hand over the website, completed brand files and access credentials. Domain, hosting and external licences are agreed separately. Business cards and stamps include the visual designs; printing and stamp manufacture are separate items. Email signatures are configured in the agreed email clients and accounts.",
+        "offerLabel": "Only now · brand extras",
+        "offerTitle": "A first impression, down to the details.",
+        "offerText": "The package includes logo, business card and stamp impression designs. We also configure a professional email signature in your agreed email client."
       }
     }
   }
