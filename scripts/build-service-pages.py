@@ -6,6 +6,7 @@ from html import escape
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = json.loads((ROOT / 'content/services.json').read_text())
+DEMOS = json.loads((ROOT / 'content/service-demos.json').read_text())
 PRICES = json.loads((ROOT / 'content/service-prices.json').read_text())
 ROUTES = {
     'm-web': 'weboldalberles.html', 'm-social': 'kozossegimedia-kezeles.html',
@@ -35,6 +36,8 @@ def update_links(text):
 
 def create_page(lang, key, item, template):
     d, ui, content = DATA[lang], UI[lang], DATA[lang]['pages'][key]
+    demo = DEMOS[lang]
+    demo_json = json.dumps(demo, ensure_ascii=False).replace('<', '\u003c')
     plan = key[0]
     route = ROUTES[key]
     _, name, description, included = item
@@ -50,7 +53,7 @@ def create_page(lang, key, item, template):
     head = re.sub(r'<title>.*?</title>', f'<title>{esc(name)} — Gejza Váradi - Digital Solutions</title>', head)
     head = re.sub(r'(<meta\s+name="description"\s+content=")[^"]*', lambda m: m[1] + esc(description), head)
     head = head.replace(CATEGORIES[plan], route)
-    head = head.replace('</head>', f'  <link rel="stylesheet" href="{prefix}service-page.css?v=1" />\n  </head>')
+    head = head.replace('</head>', f'  <link rel="stylesheet" href="{prefix}service-page.css?v=1" />\n    <link rel="stylesheet" href="{prefix}service-demos.css?v=1" />\n  </head>')
     benefits = ''.join(f'<article class="detail-panel glass"><span class="panel-index" aria-hidden="true">0{i}</span><h3>{esc(title)}</h3><p>{esc(body)}</p></article>' for i, (title, body) in enumerate(pairs(content['benefits']), 1))
     steps = ''.join(f'<li><span class="step-number" aria-hidden="true">0{i}</span><div><h3>{esc(title)}</h3><p>{esc(body)}</p></div></li>' for i, (title, body) in enumerate(pairs(content['steps']), 1))
     inclusions = ''.join(f'<li>{esc(value)}</li>' for value in included.split('|'))
@@ -83,7 +86,12 @@ def create_page(lang, key, item, template):
         <p>{esc(content['audience'])}</p><a class="text-link" href="#process">{ui['process']} ↓</a>
       </aside>
     </section>
-    <nav class="section-shell detail-jumps" aria-label="{ui['nav']}"><a href="#benefits">{ui['benefit']}</a><a href="#included">{ui['includes']}</a><a href="#process">{ui['process']}</a><a href="#pricing">{ui['pricing']}</a></nav>
+    <nav class="section-shell detail-jumps" aria-label="{ui['nav']}"><a href="#demo">{demo['label']}</a><a href="#benefits">{ui['benefit']}</a><a href="#included">{ui['includes']}</a><a href="#process">{ui['process']}</a><a href="#pricing">{ui['pricing']}</a></nav>
+    <section class="section-shell service-demo-section" id="demo">
+      <div class="detail-heading"><span class="kicker">{demo['label']}</span><h2>{demo['heading']}</h2><p>{demo['intro']}</p></div>
+      <div data-service-demo="{key}" data-assets="{prefix}assets/service-demos/"><noscript><p>{demo['nojs']}</p></noscript></div>
+      <script type="application/json" id="service-demo-copy">{demo_json}</script>
+    </section>
     <section class="section-shell detail-section" id="benefits">
       <div class="detail-heading"><span class="kicker">{esc(name)}</span><h2>{ui['benefit']}</h2><p>{esc(content['explanation'])}</p></div>
       <div class="detail-benefits">{benefits}</div>
@@ -108,6 +116,7 @@ def create_page(lang, key, item, template):
   </main>
   <footer class="footer section-shell"><a href="{CATEGORIES[plan]}">{category}</a><p>© <span id="year"></span> Gejza Váradi - Digital Solutions</p></footer>
   <script src="{prefix}script.js?v=9"></script>
+  <script src="{prefix}service-demos.js?v=1"></script>
 </body>
 </html>
 '''

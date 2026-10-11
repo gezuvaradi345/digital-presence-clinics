@@ -37,3 +37,14 @@ Mind a tíz szolgáltatás külön, statikus oldalt kapott magyar, szlovák és 
 - Megjelenés: `service-page.css`. A generátor a meglévő kategóriaoldalak fejlécét használja, így a közös navigációt először azokban kell frissíteni.
 
 A részletes oldalak HTML-fájljai generáltak; tartalmi módosításhoz a JSON-forrást és az újragenerálást használjuk. Az ajánlatkérő gombok a választott szolgáltatást a főoldali űrlaphoz továbbítják.
+
+## Interaktív szolgáltatásbemutatók
+
+Minden szolgáltatásoldal saját, helyben működő bemutatót tartalmaz. A weboldal- és bérleti mintában szekciók és űrlap, a közösségimédia-mintában telefonos profil, posztok és lapozható storyk, a webshopban termékek és kosár próbálható ki. A többi szolgáltatáshoz kampánycél-választó, karbantartási lépéssor, keresési előnézet, kampányoldali űrlap, arculatválasztó és előtte–utána auditminta tartozik.
+
+- Fordítások és magyarázatok: `content/service-demos.json`.
+- Működés és stílus: `service-demos.js`, `service-demos.css`.
+- Beépítés: `scripts/build-service-pages.py`, ugyanazzal az újragenerálási paranccsal.
+- AI-képek és generálási promptok: `assets/service-demos/README.md`.
+
+A minták nem küldenek űrlapot, nem indítanak valódi kampányt és nem hoznak létre rendelést. Az adatok, reakciók és kosárállapot kizárólag az adott oldal helyi bemutatóállapotában élnek. A felugró ablakok Escape-pel bezárhatók, a bemutatók az Újrakezdés gombbal alaphelyzetbe állíthatók.

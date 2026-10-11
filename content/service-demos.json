@@ -1,0 +1,632 @@
+{
+  "hu": {
+    "heading": "Nézze meg, hogyan működhet az Ön vállalkozásánál.",
+    "intro": "Ez egy kattintható bemutató. Próbálja ki a gombokat: közben megmutatjuk, mi miért fontos.",
+    "label": "Interaktív mintatér",
+    "guide": "Miért van erre szükség?",
+    "demo": "Bemutató · szemléltető tartalom",
+    "reset": "Újrakezdés",
+    "close": "Bezárás",
+    "next": "Következő",
+    "prev": "Előző",
+    "try": "Próbálja ki",
+    "nojs": "A bemutató használatához engedélyezze a JavaScriptet.",
+    "web": {
+      "tabs": [
+        "Nyitó szekció",
+        "Szolgáltatások",
+        "Bizalomépítés",
+        "Kapcsolat"
+      ],
+      "titles": [
+        "Ide kerül az Ön hero szekciója.",
+        "Itt válik érthetővé az Ön ajánlata.",
+        "Itt kapnak helyet a valódi referenciái.",
+        "Itt válik az érdeklődés kapcsolatfelvétellé."
+      ],
+      "copy": [
+        "Az első képernyő röviden elmondja, miben segít, kinek és miért érdemes Önt választani. Egy erős cím és egy egyértelmű gomb vezeti tovább a látogatót.",
+        "Áttekinthető szolgáltatáskártyák mutatják meg, milyen problémára kínál megoldást. A részletekhez külön út vezet, így könnyebb választani.",
+        "Valós munkák, ügyfélvélemények és konkrét példák csökkentik a bizonytalanságot. Ide az Ön hiteles anyagai kerülnek.",
+        "Egy rövid űrlap a szükséges adatokat kéri. A jól látható visszajelzésből az érdeklődő tudja, mi lesz a következő lépés."
+      ],
+      "brand": "AZ ÖN MÁRKÁJA",
+      "cta": "Ajánlatot kérek",
+      "more": "Megnézem a szolgáltatásokat",
+      "cards": [
+        "Az Ön első szolgáltatása",
+        "Az Ön második szolgáltatása",
+        "Az Ön harmadik szolgáltatása"
+      ],
+      "project": "Az Ön projektje",
+      "proof": "Ide kerül egy valódi munkája, rövid leírással a megoldott feladatról.",
+      "name": "Az Ön neve (minta)",
+      "message": "Mire van szüksége? (minta)",
+      "send": "Kipróbálom az űrlapot",
+      "sent": "Így jelenik meg a sikeres beküldés visszajelzése. Ez a bemutató nem küldött üzenetet.",
+      "rental": "Havi konstrukció: a weboldalt mi üzemeltetjük, Ön bérli.",
+      "owned": "Saját tulajdon: a kész weboldalt és a hozzáféréseket átadjuk."
+    },
+    "social": {
+      "name": "FORMA · Kerámiaműhely",
+      "bio": "Kézzel készült tárgyak, hétköznapi örömök.\nItt mutatkozik be röviden az Ön márkája.",
+      "counts": [
+        "poszt",
+        "követő",
+        "követés"
+      ],
+      "follow": "Követés",
+      "following": "Követve",
+      "story": "Story megtekintése",
+      "stories": [
+        "A műhelyben",
+        "Kollekció",
+        "Kulisszák"
+      ],
+      "post": "Poszt megnyitása",
+      "like": "Tetszik",
+      "save": "Mentés",
+      "liked": "Kedvelve",
+      "saved": "Elmentve",
+      "ai": "Kitalált mintaprofil · AI-generált képek",
+      "captions": [
+        "Egy tárgy története a kezeknél kezdődik. Itt mesélhet a munkafolyamatról.",
+        "Az Ön terméke, a márkához illő képi világban. Egy poszt egy üzenetre koncentrál.",
+        "Engedjen bepillantást a márka mindennapjaiba. A storyban egy rövid történet is elég."
+      ],
+      "guide": "A profil egységes képi világa és rövid bemutatkozása segít megérteni, mivel foglalkozik. Nyisson meg egy posztot vagy egy storyt!",
+      "storyGuide": "A story személyesebb, gyorsan befogadható történet. Mutathat folyamatot, újdonságot vagy kulisszatitkot. A nyilakkal lapozhat a minták között.",
+      "likeGuide": "A kedvelés gyors reakció, a mentés későbbi érdeklődést jelezhet. Ezek itt kizárólag helyi bemutató műveletek."
+    },
+    "ads": {
+      "tabs": [
+        "Ismertség",
+        "Érdeklődők",
+        "Vásárlás"
+      ],
+      "title": "Az Ön következő kampánya",
+      "copy": [
+        "Mutassa be márkáját a releváns közönségnek.",
+        "Vezesse az érdeklődőket egy jól felépített ajánlatkérő oldalra.",
+        "Mutassa meg termékét és az egyszerű vásárlási lehetőséget."
+      ],
+      "metrics": [
+        "Elérés",
+        "Ajánlatkérések",
+        "Rendelések"
+      ],
+      "values": [
+        "12 400",
+        "38",
+        "16"
+      ],
+      "budget": "Szemléltető keret",
+      "start": "Mintakampány indítása",
+      "stop": "Mintakampány szüneteltetése",
+      "draft": "Tervezet",
+      "active": "A bemutatóban aktív",
+      "note": "Kitalált mintaszámok, nem előrejelzés vagy eredményígéret.",
+      "guide": "A kampánycélt az üzleti célhoz választjuk. Más üzenet és mérési pont kell az ismertséghez, az ajánlatkéréshez és a vásárláshoz."
+    },
+    "care": {
+      "title": "Az Ön weboldalának állapota",
+      "tasks": [
+        "Biztonsági mentés",
+        "Rendszerfrissítés",
+        "Működésellenőrzés"
+      ],
+      "buttons": [
+        "Mentés készítése",
+        "Frissítés futtatása",
+        "Ellenőrzés indítása"
+      ],
+      "pending": "Várakozik",
+      "done": "Kész a bemutatóban",
+      "guide": [
+        "Frissítés előtt mentést készítünk, hogy legyen visszaállítási pont. Kattintson az első lépésre!",
+        "A mentés után jöhetnek a rendszerhez illő frissítések. Előre egyeztetjük, mit és mikor módosítunk.",
+        "Frissítés után ellenőrizzük a fontos funkciókat, például az űrlapokat és a navigációt.",
+        "A folyamat végén összefoglaljuk az elvégzett munkát. Ez a minta nem módosít valódi weboldalt."
+      ]
+    },
+    "content": {
+      "title": "Ilyen lehet az Ön keresési találata",
+      "label": "Oldalcím szerkesztése",
+      "value": "Az Ön szolgáltatása – az Ön városában",
+      "desc": "Itt egy rövid, lényegre törő leírás mutatja meg, miért érdemes az Ön oldalát megnyitni.",
+      "count": "karakter",
+      "before": "Általános cím",
+      "after": "Beszédes cím",
+      "generic": "Főoldal",
+      "guide": "A cím legyen érthető és illeszkedjen a keresési szándékhoz. Írja át a mezőt, és nézze meg a mintatalálatot! A tényleges keresőmegjelenést a kereső is alakítja."
+    },
+    "shop": {
+      "title": "Az Ön online boltja",
+      "products": [
+        "Kézműves csésze",
+        "Kerámiatál",
+        "Műhelykollekció"
+      ],
+      "detail": "Termék megtekintése",
+      "add": "Kosárba teszem",
+      "cart": "Kosár",
+      "remove": "Eltávolítás",
+      "empty": "A mintakosár még üres.",
+      "checkout": "Próbarendelés",
+      "success": "A mintarendelés elkészült. Nem történt vásárlás vagy fizetés.",
+      "price": "Mintaár",
+      "guide": "A termékkép, az érthető leírás és az ár együtt segíti a döntést. Nyisson meg egy terméket, tegye kosárba, majd próbálja ki a rendelés lépését!",
+      "desc": "Itt szerepelnek a termék méretei, anyaga és a vásárláshoz szükséges tudnivalók."
+    },
+    "landing": {
+      "title": "Ide kerül az Ön kiemelt ajánlata.",
+      "copy": "Egy konkrét célközönségnek egy világos előny. Ez az oldal egyetlen következő lépés felé vezeti a látogatót.",
+      "cta": "Érdekel az ajánlat",
+      "why": "Miért éri meg?",
+      "reasons": [
+        "Egyértelmű előny",
+        "Konkrét tartalom",
+        "Könnyű jelentkezés"
+      ],
+      "guide": "Egy kampányoldal kevesebb választási lehetőséggel segíti a döntést. Próbálja ki az érdeklődő gombot és a mintaűrlapot!"
+    },
+    "brand": {
+      "title": "Az Ön márkája, egységesen.",
+      "palettes": [
+        "Bizalom · kék",
+        "Melegség · terrakotta",
+        "Természet · zöld"
+      ],
+      "fonts": [
+        "Modern",
+        "Karakteres"
+      ],
+      "sample": "Valami, ami Önről szól.",
+      "copy": "Ugyanaz a színvilág és tipográfia a weben, a posztokon és az email-aláírásban.",
+      "signature": "Az Ön neve · vállalkozása",
+      "guide": "Válasszon hangulatot és betűstílust! A közös vizuális szabályok több felületen is felismerhetővé teszik a márkát."
+    },
+    "audit": {
+      "title": "Az Ön digitális állapotfelmérése",
+      "tabs": [
+        "Navigáció",
+        "Ajánlatkérés",
+        "Kereshetőség"
+      ],
+      "problems": [
+        "Túl sok menüpont, nehéz választás.",
+        "A kapcsolatfelvétel elvész az oldalon.",
+        "A cím nem mondja el, miről szól az oldal."
+      ],
+      "solutions": [
+        "Rövid, logikus menü a legfontosabb oldalakkal.",
+        "Jól látható ajánlatkérő gomb, egyértelmű felirattal.",
+        "Konkrét szolgáltatás és releváns helyszín az oldalcímben."
+      ],
+      "toggle": "Mutassa a javított változatot",
+      "back": "Eredeti minta",
+      "priority": "Példa a kiemelt teendőkre",
+      "guide": "A felmérés a problémák mellett prioritásokat és javítási javaslatokat ad. Válasszon témát, majd nézze meg a javított mintát!"
+    }
+  },
+  "en": {
+    "heading": "See how it could work for your business.",
+    "intro": "This is an interactive demo. Try the controls and discover why each element matters.",
+    "label": "Interactive showcase",
+    "guide": "Why does this matter?",
+    "demo": "Demo · illustrative content",
+    "reset": "Reset",
+    "close": "Close",
+    "next": "Next",
+    "prev": "Previous",
+    "try": "Try it",
+    "nojs": "Enable JavaScript to use this demo.",
+    "web": {
+      "tabs": [
+        "Hero section",
+        "Services",
+        "Building trust",
+        "Contact"
+      ],
+      "titles": [
+        "Your hero section goes here.",
+        "This is where your offer becomes clear.",
+        "Your genuine references belong here.",
+        "This is where interest becomes an enquiry."
+      ],
+      "copy": [
+        "The first screen explains what you do, who you help and why visitors should choose you. A strong headline and clear button guide the next step.",
+        "Clear service cards show which problems you solve. Each offer leads to more detail, making it easier to choose.",
+        "Real projects, customer feedback and concrete examples reduce uncertainty. Your genuine materials go here.",
+        "A short form asks for the information you need. A clear confirmation tells visitors what happens next."
+      ],
+      "brand": "YOUR BRAND",
+      "cta": "Request a quote",
+      "more": "Explore the services",
+      "cards": [
+        "Your first service",
+        "Your second service",
+        "Your third service"
+      ],
+      "project": "Your project",
+      "proof": "A real project goes here, with a short explanation of the problem you solved.",
+      "name": "Your name (sample)",
+      "message": "What do you need? (sample)",
+      "send": "Try the form",
+      "sent": "This is a sample confirmation. The demo has not sent a message.",
+      "rental": "Monthly plan: we operate the website and you rent it.",
+      "owned": "Full ownership: we hand over the website and access credentials."
+    },
+    "social": {
+      "name": "FORMA · Ceramics studio",
+      "bio": "Handmade objects, everyday joy.\nYour brand introduces itself briefly here.",
+      "counts": [
+        "posts",
+        "followers",
+        "following"
+      ],
+      "follow": "Follow",
+      "following": "Following",
+      "story": "View story",
+      "stories": [
+        "At the wheel",
+        "Collection",
+        "Behind the scenes"
+      ],
+      "post": "Open post",
+      "like": "Like",
+      "save": "Save",
+      "liked": "Liked",
+      "saved": "Saved",
+      "ai": "Fictional sample profile · AI-generated images",
+      "captions": [
+        "Every object begins with the hands. This is where you can tell the story of your process.",
+        "Your product, in a visual style that fits your brand. One post focuses on one message.",
+        "Give visitors a glimpse behind the scenes. A short story can be enough."
+      ],
+      "guide": "A consistent visual style and short bio help visitors understand your business. Open a post or a story!",
+      "storyGuide": "Stories are personal and quick to explore. Show a process, a launch or a moment behind the scenes. Use the arrows to browse the samples.",
+      "likeGuide": "Likes show a quick reaction; saves may signal future interest. These are local demo actions only."
+    },
+    "ads": {
+      "tabs": [
+        "Awareness",
+        "Enquiries",
+        "Purchases"
+      ],
+      "title": "Your next campaign",
+      "copy": [
+        "Introduce your brand to a relevant audience.",
+        "Guide potential customers to a clear enquiry page.",
+        "Show your product and a straightforward path to purchase."
+      ],
+      "metrics": [
+        "Reach",
+        "Enquiries",
+        "Orders"
+      ],
+      "values": [
+        "12,400",
+        "38",
+        "16"
+      ],
+      "budget": "Illustrative budget",
+      "start": "Start sample campaign",
+      "stop": "Pause sample campaign",
+      "draft": "Draft",
+      "active": "Active in the demo",
+      "note": "Fictional sample figures, not a forecast or performance promise.",
+      "guide": "Choose the campaign objective to fit your business goal. Awareness, enquiries and purchases need different messages and measurement."
+    },
+    "care": {
+      "title": "Your website’s health",
+      "tasks": [
+        "Backup",
+        "System update",
+        "Functionality check"
+      ],
+      "buttons": [
+        "Create backup",
+        "Run update",
+        "Start checks"
+      ],
+      "pending": "Pending",
+      "done": "Complete in demo",
+      "guide": [
+        "A backup provides a restore point before an update. Try the first step!",
+        "Once a backup is ready, we apply suitable updates. The scope and timing are agreed in advance.",
+        "After updates, we check key functions such as forms and navigation.",
+        "We summarise the completed work. This demo does not change a real website."
+      ]
+    },
+    "content": {
+      "title": "Your search result could look like this",
+      "label": "Edit the page title",
+      "value": "Your service – in your city",
+      "desc": "A short, clear description explains why someone should open your page.",
+      "count": "characters",
+      "before": "Generic title",
+      "after": "Descriptive title",
+      "generic": "Home",
+      "guide": "A title should be clear and relevant to the search intent. Edit the field to see the sample result! The search engine also controls how actual results appear."
+    },
+    "shop": {
+      "title": "Your online store",
+      "products": [
+        "Handmade cup",
+        "Ceramic bowl",
+        "Studio collection"
+      ],
+      "detail": "View product",
+      "add": "Add to cart",
+      "cart": "Cart",
+      "remove": "Remove",
+      "empty": "Your sample cart is empty.",
+      "checkout": "Sample checkout",
+      "success": "Sample order complete. No purchase or payment has taken place.",
+      "price": "Sample price",
+      "guide": "Product images, clear descriptions and pricing help customers decide. Open a product, add it to the cart and try the checkout step!",
+      "desc": "Product dimensions, materials and the details needed to make a purchase go here."
+    },
+    "landing": {
+      "title": "Your featured offer goes here.",
+      "copy": "One clear benefit for a specific audience. This page guides visitors towards a single next step.",
+      "cta": "I’m interested",
+      "why": "Why choose this?",
+      "reasons": [
+        "A clear benefit",
+        "Specific scope",
+        "Easy sign-up"
+      ],
+      "guide": "A landing page supports decisions with fewer distractions. Try the enquiry button and the sample form!"
+    },
+    "brand": {
+      "title": "Your brand, consistently.",
+      "palettes": [
+        "Trust · blue",
+        "Warmth · terracotta",
+        "Nature · green"
+      ],
+      "fonts": [
+        "Modern",
+        "Distinctive"
+      ],
+      "sample": "Something that speaks for you.",
+      "copy": "The same colours and typography across your website, posts and email signature.",
+      "signature": "Your name · your business",
+      "guide": "Choose a mood and type style! Shared visual rules make your brand recognisable across different channels."
+    },
+    "audit": {
+      "title": "Your digital presence review",
+      "tabs": [
+        "Navigation",
+        "Enquiries",
+        "Search visibility"
+      ],
+      "problems": [
+        "Too many menu items make choosing difficult.",
+        "The contact option gets lost on the page.",
+        "The title does not explain what the page offers."
+      ],
+      "solutions": [
+        "A short, logical menu with the most important pages.",
+        "A visible enquiry button with a clear label.",
+        "A specific service and relevant location in the page title."
+      ],
+      "toggle": "Show the improved version",
+      "back": "Original sample",
+      "priority": "Sample priority actions",
+      "guide": "A review offers priorities and recommendations as well as findings. Pick a topic, then compare the improved sample!"
+    }
+  },
+  "sk": {
+    "heading": "Pozrite sa, ako to môže fungovať vo vašej firme.",
+    "intro": "Toto je interaktívna ukážka. Vyskúšajte tlačidlá a zistite, prečo sú jednotlivé prvky dôležité.",
+    "label": "Interaktívna ukážka",
+    "guide": "Prečo je to dôležité?",
+    "demo": "Ukážka · ilustračný obsah",
+    "reset": "Začať znova",
+    "close": "Zavrieť",
+    "next": "Ďalej",
+    "prev": "Späť",
+    "try": "Vyskúšať",
+    "nojs": "Na používanie ukážky povoľte JavaScript.",
+    "web": {
+      "tabs": [
+        "Úvodná sekcia",
+        "Služby",
+        "Dôveryhodnosť",
+        "Kontakt"
+      ],
+      "titles": [
+        "Sem patrí vaša úvodná sekcia.",
+        "Tu sa vaša ponuka stáva zrozumiteľnou.",
+        "Sem patria vaše skutočné referencie.",
+        "Tu sa záujem mení na dopyt."
+      ],
+      "copy": [
+        "Prvá obrazovka vysvetlí, čo robíte, komu pomáhate a prečo si vás vybrať. Výstižný nadpis a jasné tlačidlo vedú k ďalšiemu kroku.",
+        "Prehľadné karty ukážu, aké problémy riešite. Každá ponuka vedie k podrobnostiam a uľahčuje výber.",
+        "Skutočné projekty, hodnotenia zákazníkov a konkrétne príklady znižujú neistotu. Sem vložíme vaše autentické podklady.",
+        "Krátky formulár žiada potrebné údaje. Zrozumiteľné potvrdenie vysvetlí, čo bude nasledovať."
+      ],
+      "brand": "VAŠA ZNAČKA",
+      "cta": "Chcem ponuku",
+      "more": "Pozrieť služby",
+      "cards": [
+        "Vaša prvá služba",
+        "Vaša druhá služba",
+        "Vaša tretia služba"
+      ],
+      "project": "Váš projekt",
+      "proof": "Sem patrí skutočný projekt s krátkym vysvetlením vyriešenej úlohy.",
+      "name": "Vaše meno (ukážka)",
+      "message": "Čo potrebujete? (ukážka)",
+      "send": "Vyskúšať formulár",
+      "sent": "Takto môže vyzerať potvrdenie. Ukážka neodoslala žiadnu správu.",
+      "rental": "Mesačný model: web prevádzkujeme my a vy si ho prenajímate.",
+      "owned": "Vlastný web: odovzdáme vám stránku aj prístupy."
+    },
+    "social": {
+      "name": "FORMA · Keramická dielňa",
+      "bio": "Ručne tvorené predmety, každodenná radosť.\nTu sa stručne predstaví vaša značka.",
+      "counts": [
+        "príspevky",
+        "sledovatelia",
+        "sledované"
+      ],
+      "follow": "Sledovať",
+      "following": "Sledujete",
+      "story": "Pozrieť príbeh",
+      "stories": [
+        "V dielni",
+        "Kolekcia",
+        "Zo zákulisia"
+      ],
+      "post": "Otvoriť príspevok",
+      "like": "Páči sa mi",
+      "save": "Uložiť",
+      "liked": "Páči sa vám",
+      "saved": "Uložené",
+      "ai": "Fiktívny profil · obrázky vytvorené AI",
+      "captions": [
+        "Príbeh predmetu sa začína v rukách. Tu môžete ukázať svoj pracovný postup.",
+        "Váš produkt vo vizuálnom štýle značky. Jeden príspevok sa sústredí na jednu myšlienku.",
+        "Ukážte každodenný život značky. V príbehu stačí aj krátky moment."
+      ],
+      "guide": "Jednotný vizuálny štýl a stručné bio pomáhajú pochopiť, čomu sa venujete. Otvorte príspevok alebo príbeh!",
+      "storyGuide": "Príbehy sú osobnejšie a rýchlo zrozumiteľné. Ukážte postup, novinku alebo zákulisie. Šípkami prechádzajte ukážky.",
+      "likeGuide": "Páči sa mi je rýchla reakcia, uloženie môže znamenať budúci záujem. Tu ide iba o lokálne ukážkové akcie."
+    },
+    "ads": {
+      "tabs": [
+        "Povedomie",
+        "Dopyty",
+        "Nákupy"
+      ],
+      "title": "Vaša ďalšia kampaň",
+      "copy": [
+        "Predstavte značku relevantnému publiku.",
+        "Priveďte záujemcov na prehľadnú dopytovú stránku.",
+        "Ukážte produkt a jednoduchú cestu k nákupu."
+      ],
+      "metrics": [
+        "Dosah",
+        "Dopyty",
+        "Objednávky"
+      ],
+      "values": [
+        "12 400",
+        "38",
+        "16"
+      ],
+      "budget": "Ilustračný rozpočet",
+      "start": "Spustiť ukážkovú kampaň",
+      "stop": "Pozastaviť ukážkovú kampaň",
+      "draft": "Koncept",
+      "active": "Aktívna v ukážke",
+      "note": "Vymyslené ukážkové čísla, nie predpoveď ani prísľub výsledkov.",
+      "guide": "Cieľ kampane vyberáme podľa obchodného cieľa. Povedomie, dopyty a nákupy potrebujú odlišné posolstvá a meranie."
+    },
+    "care": {
+      "title": "Stav vášho webu",
+      "tasks": [
+        "Záloha",
+        "Aktualizácia systému",
+        "Kontrola funkčnosti"
+      ],
+      "buttons": [
+        "Vytvoriť zálohu",
+        "Spustiť aktualizáciu",
+        "Spustiť kontrolu"
+      ],
+      "pending": "Čaká",
+      "done": "Hotovo v ukážke",
+      "guide": [
+        "Záloha vytvorí bod obnovy pred aktualizáciou. Vyskúšajte prvý krok!",
+        "Po zálohe prichádzajú vhodné aktualizácie. Rozsah aj čas zmien dohodneme vopred.",
+        "Po aktualizácii kontrolujeme dôležité funkcie, napríklad formuláre a navigáciu.",
+        "Na záver zhrnieme vykonanú prácu. Táto ukážka nemení skutočný web."
+      ]
+    },
+    "content": {
+      "title": "Takto môže vyzerať váš výsledok vyhľadávania",
+      "label": "Upraviť titulok stránky",
+      "value": "Vaša služba – vo vašom meste",
+      "desc": "Krátky a výstižný popis vysvetlí, prečo sa oplatí otvoriť vašu stránku.",
+      "count": "znakov",
+      "before": "Všeobecný titulok",
+      "after": "Výstižný titulok",
+      "generic": "Úvod",
+      "guide": "Titulok má byť jasný a zodpovedať zámeru vyhľadávania. Upravte pole a pozrite sa na ukážku! Skutočné zobrazenie ovplyvňuje aj vyhľadávač."
+    },
+    "shop": {
+      "title": "Váš internetový obchod",
+      "products": [
+        "Ručne robená šálka",
+        "Keramická miska",
+        "Kolekcia dielne"
+      ],
+      "detail": "Pozrieť produkt",
+      "add": "Pridať do košíka",
+      "cart": "Košík",
+      "remove": "Odstrániť",
+      "empty": "Ukážkový košík je prázdny.",
+      "checkout": "Skúšobná objednávka",
+      "success": "Ukážková objednávka je hotová. Nenastal nákup ani platba.",
+      "price": "Ukážková cena",
+      "guide": "Fotografia, jasný popis a cena pomáhajú pri rozhodovaní. Otvorte produkt, pridajte ho do košíka a vyskúšajte objednávku!",
+      "desc": "Sem patria rozmery, materiál a informácie potrebné na kúpu."
+    },
+    "landing": {
+      "title": "Sem patrí vaša hlavná ponuka.",
+      "copy": "Jedna jasná výhoda pre konkrétne publikum. Stránka vedie návštevníka k jednému ďalšiemu kroku.",
+      "cta": "Mám záujem",
+      "why": "Prečo sa to oplatí?",
+      "reasons": [
+        "Jasná výhoda",
+        "Konkrétny rozsah",
+        "Jednoduché prihlásenie"
+      ],
+      "guide": "Cieľová stránka uľahčuje rozhodovanie menším počtom možností. Vyskúšajte tlačidlo a ukážkový formulár!"
+    },
+    "brand": {
+      "title": "Vaša značka, jednotne.",
+      "palettes": [
+        "Dôvera · modrá",
+        "Teplo · terakota",
+        "Príroda · zelená"
+      ],
+      "fonts": [
+        "Moderné",
+        "Výrazné"
+      ],
+      "sample": "Niečo, čo hovorí za vás.",
+      "copy": "Rovnaké farby a typografia na webe, v príspevkoch aj emailovom podpise.",
+      "signature": "Vaše meno · vaša firma",
+      "guide": "Vyberte náladu a štýl písma! Spoločné vizuálne pravidlá robia značku rozpoznateľnou na rôznych kanáloch."
+    },
+    "audit": {
+      "title": "Posúdenie vašej digitálnej prezentácie",
+      "tabs": [
+        "Navigácia",
+        "Dopyty",
+        "Vyhľadávanie"
+      ],
+      "problems": [
+        "Príliš veľa položiek sťažuje výber.",
+        "Možnosť kontaktu sa na stránke stráca.",
+        "Titulok nevysvetľuje obsah stránky."
+      ],
+      "solutions": [
+        "Krátke a logické menu s dôležitými stránkami.",
+        "Viditeľné dopytové tlačidlo s jasným textom.",
+        "Konkrétna služba a relevantná lokalita v titulku."
+      ],
+      "toggle": "Ukázať vylepšenú verziu",
+      "back": "Pôvodná ukážka",
+      "priority": "Príklady prioritných úloh",
+      "guide": "Posúdenie ponúka okrem problémov aj priority a návrhy úprav. Vyberte tému a porovnajte vylepšenú ukážku!"
+    }
+  }
+}
