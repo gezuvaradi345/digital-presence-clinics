@@ -3,7 +3,7 @@
 A végleges HTML: `signature-varadisolutions.html`.
 A logó publikus címe: https://varadisolutions.sk/assets/logo-signature.png
 
-Statikus HTML/CSS/JavaScript projekt, framework és buildlépés nélkül. A gyökérben lévő `assets/` mappa közvetlenül szolgálja ki a PNG-t. A `.vercelignore` kizárja ezt az `email-signatures/` referenciamappát a Vercel-deployból; az aláírás nem kerül a weboldal felületére.
+Statikus HTML/CSS/JavaScript projekt, framework és buildlépés nélkül. A gyökérben lévő `assets/` mappa közvetlenül szolgálja ki a PNG-t. A `.vercelignore` kizárja ezt az `email-signatures/` referenciamappát a Vercel-deployból. A szolgáltatásoldalak generátora az aláírás HTML-jét beágyazza a „Komplett üzleti arculat” interaktív bemutatójába, helyi logóhivatkozással. Az aláírás módosítása után futtasd a `python3 scripts/build-service-pages.py` parancsot.
 
 Roundcube: Beállítások → Identitások → ceo@varadisolutions.sk → HTML-aláírás. A szerkesztő forráskód nézetébe illeszd a HTML-fájl teljes tartalmát, majd mentsd. HTML-formátumú levélben ellenőrizd az eredményt.
 

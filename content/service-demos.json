@@ -239,7 +239,52 @@
       "name": "Az Ön neve",
       "role": "Az Ön vállalkozása",
       "stamp": "BÉLYEGZŐLENYOMAT · MINTA",
-      "card": "NÉVJEGYKÁRTYA · MINTA"
+      "card": "NÉVJEGYKÁRTYA · MINTA",
+      "heroEyebrow": "A következő fejezet az Ön vállalkozásáé.",
+      "heroTitle": "Egy márka, amire felfigyelnek.",
+      "heroAccent": "Egy weboldal, ami elindítja a kapcsolatot.",
+      "heroCopy": "Ide kerül az Ön legerősebb ígérete: kinek segít, miben és miért érdemes Önt választani. Egyedi látvány, világos ajánlat és határozott következő lépés.",
+      "heroPrimary": "Kipróbálom az ajánlatkérést",
+      "heroSecondary": "Megnézem a márka felületeit",
+      "heroCards": [
+        "Egyedi megjelenés",
+        "Mobilra tervezve",
+        "Átlátható ajánlat"
+      ],
+      "heroNote": "Saját arculat · átgondolt tartalom · működő kapcsolatfelvétel",
+      "seoQuery": "weboldalkészítés és digitális arculat",
+      "seoName": "Vállalkozás neve",
+      "seoSearch": "Keresőkifejezés",
+      "seoAll": "Összes",
+      "seoProfile": "Vállalkozási adatlap",
+      "seoNote": "Google-megjelenés szemléltetése. Nem élő találat vagy garantált helyezés.",
+      "seoTitle": "Weboldalkészítés és teljes digitális arculat",
+      "seoDescription": "Weboldal, induló SEO és közösségi jelenlét egy kézben. Ismerje meg szolgáltatásainkat, és kérjen személyre szabott ajánlatot.",
+      "seoLinks": [
+        "Szolgáltatások",
+        "Komplett arculat",
+        "Kapcsolat"
+      ],
+      "socialTag": "Egységes márka. A platformhoz illő tartalom.",
+      "socialDescriptions": [
+        "Hiteles bemutatkozás és egy jól felépített első bejegyzés.",
+        "Összehangolt profilkép, bemutatkozás és vizuális tartalom.",
+        "Felismerhető profil és a márkát bemutató első videós tartalom."
+      ],
+      "socialOpen": "Mit készítünk ide?",
+      "socialModal": "Az Ön márkanevével, saját profilképpel és egyeztetett bemutatkozással építjük fel az oldalt. Az első tartalmakat jóváhagyás után tesszük közzé.",
+      "logosTitle": "Három márka. Három önálló karakter.",
+      "logosNote": "A megadott márkalogók, az eredeti képekből.",
+      "emailSubject": "Így jelenik meg az Ön email-aláírása",
+      "emailTo": "Címzett",
+      "emailBody": "Köszönöm a megkeresést! Az alábbi elérhetőségeken tudjuk egyeztetni a következő lépéseket.",
+      "emailPreview": "Email-előnézet · saját aláírás",
+      "cardTitle": "Gejza Váradi · a névjegy, ami Önt képviseli.",
+      "cardView": "Névjegykártya nagyítása",
+      "cardAlt": "Gejza Váradi Digital Solutions névjegykártyájának elő- és hátoldali látványterve, a megadott elérhetőségekkel.",
+      "cardNote": "AI-generált látványterv a megadott adatokkal. A nyomdai előkészítés külön munkafázis.",
+      "stampTitle": "Az arculathoz illő bélyegzőlenyomat",
+      "stampNote": "Szemléltető terv a megadott üzleti adatokkal."
     }
   },
   "en": {
@@ -482,7 +527,52 @@
       "name": "Your name",
       "role": "Your business",
       "stamp": "STAMP IMPRESSION · SAMPLE",
-      "card": "BUSINESS CARD · SAMPLE"
+      "card": "BUSINESS CARD · SAMPLE",
+      "heroEyebrow": "Your business. Its next chapter.",
+      "heroTitle": "A brand people notice.",
+      "heroAccent": "A website that starts the conversation.",
+      "heroCopy": "Your strongest promise goes here: who you help, how and why they should choose you. Distinctive design, a clear offer and a confident next step.",
+      "heroPrimary": "Try the enquiry flow",
+      "heroSecondary": "Explore the brand channels",
+      "heroCards": [
+        "Custom design",
+        "Made for mobile",
+        "A clear offer"
+      ],
+      "heroNote": "Your identity · considered content · straightforward contact",
+      "seoQuery": "website design and business identity",
+      "seoName": "Business name",
+      "seoSearch": "Search phrase",
+      "seoAll": "All",
+      "seoProfile": "Business profile",
+      "seoNote": "Illustrative Google preview. Not a live result or guaranteed ranking.",
+      "seoTitle": "Websites and complete digital identity",
+      "seoDescription": "A website, initial SEO and social presence from one partner. Explore our services and request a tailored proposal.",
+      "seoLinks": [
+        "Services",
+        "Complete identity",
+        "Contact"
+      ],
+      "socialTag": "One brand. Content that fits the platform.",
+      "socialDescriptions": [
+        "A credible introduction and a carefully structured first post.",
+        "Coordinated profile image, bio and visual content.",
+        "A recognisable profile and an introductory video for your brand."
+      ],
+      "socialOpen": "What do we create here?",
+      "socialModal": "We build the profile with your brand name, profile image and agreed introduction. Initial content is published after your approval.",
+      "logosTitle": "Three brands. Three distinct identities.",
+      "logosNote": "The supplied brand logos, using the original images.",
+      "emailSubject": "How your email signature appears",
+      "emailTo": "To",
+      "emailBody": "Thank you for getting in touch! We can discuss the next steps using the contact details below.",
+      "emailPreview": "Email preview · actual signature",
+      "cardTitle": "Gejza Váradi · a card that represents you.",
+      "cardView": "Enlarge business card",
+      "cardAlt": "Front and back business card mockup for Gejza Váradi Digital Solutions, using the supplied contact details.",
+      "cardNote": "AI-generated mockup using the supplied details. Print preparation is a separate stage.",
+      "stampTitle": "A stamp impression in your brand style",
+      "stampNote": "Illustrative design using the supplied business details."
     }
   },
   "sk": {
@@ -725,7 +815,52 @@
       "name": "Vaše meno",
       "role": "Vaša firma",
       "stamp": "ODTLAČOK PEČIATKY · UKÁŽKA",
-      "card": "VIZITKA · UKÁŽKA"
+      "card": "VIZITKA · UKÁŽKA",
+      "heroEyebrow": "Ďalšia kapitola patrí vašej firme.",
+      "heroTitle": "Značka, ktorú si všimnú.",
+      "heroAccent": "Web, ktorý otvorí komunikáciu.",
+      "heroCopy": "Sem patrí váš najsilnejší prísľub: komu pomáhate, s čím a prečo si vybrať vás. Vlastný dizajn, jasná ponuka a zrozumiteľný ďalší krok.",
+      "heroPrimary": "Vyskúšať dopyt",
+      "heroSecondary": "Pozrieť kanály značky",
+      "heroCards": [
+        "Vlastný dizajn",
+        "Aj pre mobil",
+        "Jasná ponuka"
+      ],
+      "heroNote": "Vlastná identita · premyslený obsah · jednoduchý kontakt",
+      "seoQuery": "tvorba webstránok a firemnej identity",
+      "seoName": "Názov firmy",
+      "seoSearch": "Vyhľadávací výraz",
+      "seoAll": "Všetko",
+      "seoProfile": "Firemný profil",
+      "seoNote": "Ilustrácia zobrazenia v Google. Nejde o živý výsledok ani garantovanú pozíciu.",
+      "seoTitle": "Webstránky a kompletná digitálna identita",
+      "seoDescription": "Web, úvodné SEO a sociálne siete od jedného partnera. Spoznajte naše služby a požiadajte o individuálnu ponuku.",
+      "seoLinks": [
+        "Služby",
+        "Kompletná identita",
+        "Kontakt"
+      ],
+      "socialTag": "Jednotná značka. Obsah vhodný pre platformu.",
+      "socialDescriptions": [
+        "Dôveryhodné predstavenie a premyslený prvý príspevok.",
+        "Zladená profilová fotografia, bio a vizuálny obsah.",
+        "Rozpoznateľný profil a prvý videoobsah predstavujúci značku."
+      ],
+      "socialOpen": "Čo tu pripravíme?",
+      "socialModal": "Profil vytvoríme s vaším názvom, profilovou fotografiou a dohodnutým predstavením. Prvý obsah zverejníme po schválení.",
+      "logosTitle": "Tri značky. Tri vlastné charaktery.",
+      "logosNote": "Dodané logá z pôvodných obrázkov.",
+      "emailSubject": "Takto sa zobrazí váš emailový podpis",
+      "emailTo": "Príjemca",
+      "emailBody": "Ďakujem za správu! Ďalšie kroky môžeme dohodnúť cez kontakty uvedené nižšie.",
+      "emailPreview": "Emailová ukážka · vlastný podpis",
+      "cardTitle": "Gejza Váradi · vizitka, ktorá vás predstaví.",
+      "cardView": "Zväčšiť vizitku",
+      "cardAlt": "Vizualizácia prednej a zadnej strany vizitky Gejza Váradi Digital Solutions s dodanými kontaktmi.",
+      "cardNote": "Vizualizácia vytvorená AI s dodanými údajmi. Tlačová príprava je samostatná fáza.",
+      "stampTitle": "Odtlačok pečiatky v štýle značky",
+      "stampNote": "Ilustračný návrh s dodanými firemnými údajmi."
     }
   }
 }

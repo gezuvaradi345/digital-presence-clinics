@@ -14,3 +14,11 @@ Use case: product-mockup. Asset type: Instagram demo post for a fictional small 
 
 Use case: photorealistic-natural. Asset type: Instagram story and demo post for a fictional small ceramics studio. Generate a portrait editorial photograph of a beautiful pottery workshop interior, shelves of handmade cream ceramics, wooden workbench, linen apron on a hook, warm morning light through a tall window. No people, text, logos or watermarks. Leave some calm space at the top for a later HTML caption.
 
+
+## Business identity references
+
+- `vecora-logo-reference.png`: supplied Screenshot 2026-10-11 at 13.00.37.png, copied unchanged.
+- `ah-bau-logo-reference.png`: supplied Screenshot 2026-10-11 at 13.00.26.png, copied unchanged.
+- The logo gallery clips screenshot edges with CSS; original files are preserved.
+- The own-brand logo uses the original `../logo-signature.png`. The email preview uses the existing HTML signature matching the supplied signature screenshot.
+- `varadi-business-card.png` / `.jpg`: generated branded business card mockup. Prompt and references: [business-card-generation.md](business-card-generation.md).
